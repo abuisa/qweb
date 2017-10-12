@@ -10,6 +10,7 @@ A:hover {color: #808080}
 html *
   {
 	 /*font-size: 1em !important;*/
+	 font-size: 20px;
 	 color: #000 !important;
 	 font-family: Arial !important;
   }
@@ -24,7 +25,9 @@ div {
 	margin-bottom: 20px;
 }
 
-
+body {
+  zoom: 300%;
+}
 </style>
 <script>
 function myFunction(a) {
@@ -35,12 +38,17 @@ function myFunction(a) {
         x.style.display = "none";
     }
 }
+function zoom() {
+	/*document.body.style.zoom = "400%" */
+
+}
+
 </script>
 <meta name="Microsoft Theme" content="none, default">
 </head>
-<body>
+<body onload="zoom()">
 <a name="top">
-<h3>Daftar Ayat-Ayat Pilihan</h3>
+<h3>Daftar Ayat-Ayat Pilihan </h3>
 <TABLE>
 <TR>
 	<TD><A HREF="#3">3</A></TD>
