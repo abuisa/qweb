@@ -10,7 +10,7 @@ A:hover {color: #808080}
 html *
   {
 	 /*font-size: 1em !important;*/
-	 font-size: 20px;
+	 /*font-size: 20px;*/
 	 color: #000 !important;
 	 font-family: Arial !important;
   }
@@ -24,9 +24,14 @@ div {
     margin-top: 6px;
 	margin-bottom: 20px;
 }
-
-body {
-  zoom: 300%;
+table {
+	font-size: 1.3em;
+}
+body.enlarged {
+  font-size: 2.5em;
+}
+body.enlargedx {
+  font-size: 1.1em;
 }
 </style>
 <script>
@@ -40,13 +45,25 @@ function myFunction(a) {
 }
 function zoom() {
 	/*document.body.style.zoom = "400%" */
-
+	document.body.classList.add('enlarged'); 
 }
-
+function zoomx() {
+	/*document.body.style.zoom = "400%" */
+	document.body.classList.add('enlargedx'); 
+}
+function isphone(){
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		//document.getElementById("jd").innerHTML = "<b>---Hello SmartPhone---</b>";
+		zoom();
+	}else{
+		//document.getElementById("jd").innerHTML = "<h3>It's NOT  SmartPhone </h3>";
+		zoomx();//show_a('main','tes_e');
+	}
+}
 </script>
 <meta name="Microsoft Theme" content="none, default">
 </head>
-<body onload="zoom()">
+<body onload="isphone()">
 <a name="top">
 <h3>Daftar Ayat-Ayat Pilihan </h3>
 <TABLE>
@@ -66,7 +83,7 @@ function zoom() {
 	<TD><A HREF="#72">72</A></TD>
 	<TD><A HREF="#79">79</A></TD>
 </TR>
-</TABLE><br>
+</TABLE>
 2. Al-Baqarah
 <ul>
 <li><a href="Al-Quran/2. Al-Baqarah/40.htm"  onclick="myFunction('b64')" target="b64">Ayat 40 : Memenuhi Janji kita kepada Allah</a></li>
