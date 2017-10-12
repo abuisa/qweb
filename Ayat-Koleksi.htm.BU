@@ -1,0 +1,424 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Kumpulan Ayat Pilihan</title>
+<style fprolloverstyle>
+A:hover {color: #808080}
+
+
+html *
+  {
+	 /*font-size: 1em !important;*/
+	 color: #000 !important;
+	 font-family: Arial !important;
+  }
+ /*-------------------*/
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+</style>
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<meta name="Microsoft Theme" content="none, default">
+</head>
+<body>
+<a name="top">
+<h3>Daftar Ayat-Ayat Pilihan</h3>
+<TABLE>
+<TR>
+	<TD><A HREF="#3">3</A></TD>
+	<TD><A HREF="#7">7</A></TD>
+	<TD><A HREF="#15">15</A></TD>
+	<TD><A HREF="#19">19</A></TD>
+	<TD><A HREF="#24">24</A></TD>
+	<TD><A HREF="#29">29</A></TD>
+</TR>
+<TR>
+	<TD><A HREF="#36">36</A></TD>
+	<TD><A HREF="#42">42</A></TD>
+	<TD><A HREF="#53">53</A></TD>
+	<TD><A HREF="#64">64</A></TD>
+	<TD><A HREF="#72">72</A></TD>
+	<TD><A HREF="#79">79</A></TD>
+</TR>
+</TABLE><br>
+2. Al-Baqarah
+<ul>
+<li><a href="Al-Quran/2. Al-Baqarah/40.htm" onclick="myFunction()" target="mmf2_40">Ayat 40 : Memenuhi Janji kita kepada Allah</a></li>
+<div id="myDIV" style="display:none;">
+<iframe name="mmf2_40"src="" class="" style="border: none; " height="100%" width="100%"></iframe>
+</div>
+<li><a href="Al-Quran/2. Al-Baqarah/85.htm" target="mframe">Ayat 85 : Larangan Beriman Pada Sebagian Kitab dan Inkar pada Sebagiannya</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/170.htm" target="mframe">Ayat 170 : Perintah Mengikuti Al-quran Bukan Mengikuti Orang Tua-Tua</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/195.htm" target="mframe">Ayat 195 : Larangan Membinasakan Diri, dan Anjuran Berbuat Baik</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/212.htm" target="mframe">Ayat 212 : Dunia dijadikan indah dalam pandangan orang2 kafir, dan mereka memandang hina orang2 yang beriman</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/222.htm" target="mframe">Ayat 222 : Allah cinta Orang yang Bertaubat</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/228.htm" target="mframe">Ayat 228 : Massa Iddah Wanita yang di Talak</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/234.htm" target="mframe">Ayat 234 : Iddah Perempuan yg mati suaminya</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/233.htm" target="mframe">Ayat 233 : Nafkah Istri, Seseorang Tidak dibebani Melainkan Menurut Kadar Kesanggupannya</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/255.htm" target="mframe">Ayat 255 : Ayat Kursi</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/256.htm" target="mframe">Ayat 256 : Tidak Ada Paksaan dalam Agama, dan jauhi Thogut</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/261.htm" target="mframe">Ayat 261 : Allah melipat gandakan kebaikan berlipat2</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/269.htm" target="mframe">Ayat 269 : Allah Memberi Hikmah = Karunia yg Banyak</a></li>
+</ul>
+<a name="3"><CENTER><A HREF="#top">top</A></CENTER>
+3. Ali 'Imran 
+<ul>
+<li><a href="Al-Quran/3. Ali 'Imran/14.htm" target="mframe">Ayat 14 : Manusia Dihiasi dengan Cinta Sahwat pada Wanita, Anak2, Harta dll</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/26.htm" target="mframe">Ayat 26 : Allah Berikan dan Cabut Kerajaan pada Siapa yg Dia Kehendaki</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/64.htm" target="mframe">Ayat 64 : Katakan "Hai Ahlul Kitab marilah kepada satu Kalimat..."</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/110.htm" target="mframe">Ayat 110 : Kalian Ummat Islam Ummat Terbaik</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/110.htm" target="mframe">Ayat 116 : Harta dan Anak2 org Kafir Tidak Dapat Menolak Azab Allah</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/133.htm" target="mframe">Ayat 133 : Sorga Disiapkan Untuk Orang2 yang Bertaqwa dan...</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/134.htm" target="mframe">Ayat 134-135 : Ciri-Ciri Orang Bertakwa</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/135.htm" target="mframe">Ayat 135 : Jika Bersalah atau Mendolimi diri Segera Ingat Allah dan Bertobat</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/145.htm" target="mframe">Ayat 145 : Tidak Akan Mati Kecuali Dengan Izin Allah</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/145.htm" target="mframe">Ayat 145 : Siapa yg Menginginkan Pahala dunia Allah Berikan, dan yg ini Pahala Akhirat Allah Berikan...</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/146.htm" target="mframe">Ayat 146 : Orang yg Bersama Nabi Tidak Lemah oleh Bencana yang Menimpa....</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/147.htm" target="mframe">Ayat 147 : Doa orang2 yang tertimpa bencana...</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/148.htm" target="mframe">Ayat 148 : Allah Memberikan Pahala di-Dunia dan di-Akhirat dan Allah Suka Org yg Berbuat Baik...</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/154.htm" target="mframe">Ayat 154 : Laragan Berperasangka Buruk Pada Allah, Orang akan Mengikuti Tadirnya (tentan tempat ajal)</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/159.htm" target="mframe">Ayat 159 : karena Rahmat Allah kita lemah lembut, kalo kita keras dan kasar orang akan menjauh</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/178.htm" target="mframe">Ayat 178 : Orang2 kafir ditangguhkan Adzabnya dengan diberi umur dan harta agar tambah dosa dan tanggungjawab</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/185.htm" target="mframe">Ayat 185 : Kehidupan dunia itu tidak lain hanyalah kesenangan yang memperdayakan</a></li>
+<li><a href="Al-Quran/3. Ali 'Imran/186.htm" target="mframe">Ayat 186 : Kamu akan diUji Terhadap Hartamu dan Dirimu, Sabar Menghadapi Ganguan yg Menyakitkan dari Org Ahli Kitab dan Musrik</a></li>
+</ul>
+4. An-Nisa
+<ul>
+<li><a href="Al-Quran/4. An-Nisaa'/18.htm" target="mframe">Ayat 18 : Waktu Bertobat</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/59.htm" target="mframe">Ayat 59 : Jika Ber-Selisih Kembali Kepada Allah dan Rasulullah</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/82.htm" target="mframe">Ayat 82 : Jikalau Al-Quran itu Tidak dari sisi Allah maka Terdapat Pertentangan yg banyak</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/93.htm" target="mframe">Ayat 93 : Membunuh seorang mu'min dengan sengaja maka balasannya ialah Jahannam, kekal ia di dalamnya</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/110.htm" target="mframe">Ayat 110 : Berbuat Jahat dan Mendolimi diri kemudian Bertobat Niscaya ia Dapati Allah Maha Pengampun</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/135.htm" target="mframe">Ayat 135 : Wahai Orang Ber-Iman Jadilah Penegak Keadilan</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/142.htm" target="mframe">Ayat 142 : Sifat Org Munafik : Menipu Allah, Malas Berdiri Utk Sholat, Riya' dan Sedikit Berdzikir</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/144.htm" target="mframe">Ayat 144 : Larangan Menjadikan/Mengambil Org Kafir sebagai WALI</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/145.htm" target="mframe">Ayat 145 : Org Munafik Berada pada tingkatan Neraka paling bawah</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/148.htm" target="mframe">Ayat 148 : Allah tidak menyukai ucapan buruk dan yang terang</a></li>
+<li><a href="Al-Quran/4. An-Nisaa'/149.htm" target="mframe">Ayat 149 : Meyembunyikan Kebaikan kita dan Memaafkan kesalahan orang lain</a></li>
+</ul>
+5. Al-Maa`idah
+<ul>
+<li><a href="Al-Quran/5. Al-Maa`idah/38.htm" target="mframe">Ayat 38 : Hukum Pencuri DiPotong Tangan </a></li>
+<li><a href="Al-Quran/5. Al-Maa`idah/44.htm" target="mframe">Ayat 44 : Tidak Berhukum Dengan Hukum Allah : Kafir </a></li>
+<li><a href="Al-Quran/5. Al-Maa`idah/45.htm" target="mframe">Ayat 45 : Tidak Berhukum Dengan Hukum Allah : Dzolim </a></li>
+<li><a href="Al-Quran/5. Al-Maa`idah/47.htm" target="mframe">Ayat 47 : Tidak Berhukum Dengan Hukum Allah : Fasik </a></li>
+<li><a href="Al-Quran/5. Al-Maa`idah/49.htm" target="mframe">Ayat 49 : Perintah Berhukum dengan apa yg Allah Turunkan, dan larangan Mengikuti Hawa Nafsu  </a></li>
+<li><a href="Al-Quran/5. Al-Maa`idah/82.htm" target="mframe">Ayat 82 : Yahudi dan Musrikin paling Keras Terhadap Muslim </a></li>
+</ul>
+6. Al-An'am
+<ul>
+<li><a href="Al-Quran/6. Al-An'am/32.htm" target="mframe">Ayat 32 : Kampung Akhirat itu lebih Baik bagi Orang2 yang Bertaqwa</a></li>
+<li><a href="Al-Quran/6. Al-An'am/70.htm" target="mframe">Ayat 70 : Tinggalkanlah orang2 yang menjadikan agama mereka sebagai main2 dan senda gurau</a></li>
+<li><a href="Al-Quran/6. Al-An'am/104.htm" target="mframe">Ayat 104 : Telah Datang dari Allah Bukti2 yg Terang, Sapa yg dapat melihat maka untukna...</a></li>
+<li><a href="Al-Quran/6. Al-An'am/108.htm" target="mframe">Ayat 108 : Larangan Memaki Sembahan2 orang Kafir, karena mereka akan memaki balik</a></li>
+<li><a href="Al-Quran/6. Al-An'am/111.htm" target="mframe">Ayat 111 : Walaupun Malaikat dan orang mati berbicara pada mereka (0rang kafir), mereka tidak beriman kecuali, jika Allah Menghendaki</a></li>
+<li><a href="Al-Quran/6. Al-An'am/116.htm" target="mframe">Ayat 116 : Mengikuti Banyak Orang itu akan Menyesatkanmu</a></li>
+<li><a href="Al-Quran/6. Al-An'am/151.htm" target="mframe">Ayat 151-153 : Hal-Hal Perkara dan Perbuatan yang DiHaramkan Allah pada Manusia</a></li>
+<li><a href="Al-Quran/6. Al-An'am/160.htm" target="mframe">Ayat 160 : Amal Baik 10 x lipat</a></li>
+</ul>
+<a name="7"></a><CENTER><A HREF="#top">top</A></CENTER>
+7. Al-A'raaf 
+<ul>
+<li><a href="Al-Quran/7. Al-A'raaf/27.htm" target="mframe">Ayat 27 : Allah Jadikan Setan Pemimpin Orang2 yang Tidak Beriman</a></li>
+<li><a href="Al-Quran/7. Al-A'raaf/28.htm" target="mframe">Ayat 28 : Allah Tidak Memerintahkan Berbuat Keji</a></li>
+<li><a href="Al-Quran/7. Al-A'raaf/30.htm" target="mframe">Ayat 30 : Orang2 yang mengira meraka mendapat Petunjuk Padalah meraka Wali Setan</a></li>
+<li><a href="Al-Quran/7. Al-A'raaf/55.htm" target="mframe">Ayat 55 : Tata Cara Berdo'a</a></li>
+<li><a href="Al-Quran/7. Al-A'raaf/188.htm" target="mframe">Ayat 188 : Rasulullah-pun Tak Kuasa Menarik Manfaat dan Menolak Mudharat, dan Tidak Mengetahui Perkara Gaib</a></li>
+<li><a href="Al-Quran/7. Al-A'raaf/204.htm" target="mframe">Ayat 204 : Jika diBaca Ayat Al-Quran... Dengarkan</a></li>
+<li><a href="Al-Quran/7. Al-A'raaf/205.htm" target="mframe">Ayat 205 : Tata Cara Berdo'a</a></li>
+</ul>
+8. Al-Anfaal
+<ul>
+<li><a href="Al-Quran/8. Al-Anfaal/60.htm" target="mframe">Ayat 60 : Persiapkan Kekuatan apa saja, Apa Saja Yg DiInfakkan di Jalan Allah Akan Disempurnakan Balasannya</a></li>
+</ul>
+9. At-Taubah
+<ul>
+<li><a href="Al-Quran/9. At-Taubah/13.htm" target="mframe">Ayat 13 : Allah Lebih Berhak Untuk Di-Takuti</a></li>
+<li><a href="Al-Quran/9. At-Taubah/19.htm" target="mframe">Ayat 19-21 : Tidak Sama Mengurus Haji dan Jihad</a></li>
+<li><a href="Al-Quran/9. At-Taubah/28.htm" target="mframe">Ayat 28 : Org Kafir Musrik itu Najis</a></li>
+<li><a href="Al-Quran/9. At-Taubah/31.htm" target="mframe">Ayat 31 : Org Kafir Menjadikan Rahib Sebagai Tuhan</a></li>
+<li><a href="Al-Quran/9. At-Taubah/51.htm" target="mframe">Ayat 51 : Tdk akan menimpa seseorang kecuali telah ditetapkan</a></li>
+<li><a href="Al-Quran/9. At-Taubah/55.htm" target="mframe">Ayat 55 : Larangan Kagum harta org Kafir</a></li>
+<li><a href="Al-Quran/9. At-Taubah/126.htm" target="mframe">Ayat 126 : Orang Munafik Tidak Dapat Mengambil Pelajaran dari diUji</a></li>
+</ul>
+10. Yunus
+<ul>
+<li><a href="Al-Quran/10. Yunus/26.htm" target="mframe">Ayat 26 : Berbuat Baik Dapat Sorga</a></li>
+<li><a href="Al-Quran/10. Yunus/27.htm" target="mframe">Ayat 27 : Berbuat Jahat Dapat Neraka</a></li>
+<li><a href="Al-Quran/10. Yunus/100.htm" target="mframe">Ayat 100 : Orang Beriman Karena Izin Allah</a></li>
+<li><a href="Al-Quran/10. Yunus/107.htm" target="mframe">Ayat 107 : Tdk Ada yang dapat Mencegah Kemudaratan Kecuali Allah</a></li>
+</ul>
+11. Huud
+<ul>
+<li><a href="Al-Quran/11. Huud/6.htm" target="mframe">Ayat 6 : Allah Yang Memberi Rizki binatang melata</a></li>
+<li><a href="Al-Quran/11. Huud/56.htm" target="mframe">Ayat 56 : Allah Yang memegang ubun2 binatang melata</a></li>
+<li><a href="Al-Quran/11. Huud/114.htm" target="mframe">Ayat 114 : Perbuatan Baik itu Menghapus Perbuatan Buruk (Dosa)</a></li>
+</ul>
+12. Yusuf
+<ul>
+<li><a href="Al-Quran/12. Yusuf/24.htm" target="mframe">Ayat 24 : Wanita dan Yusuf Sama Suka...?</a></li>
+</ul>
+13. Ar-Ra'd
+<ul>
+<li><a href="Al-Quran/13. Ar-Ra'd/11.htm" target="mframe">Ayat 11 : Allah Tidak Akan Merobah Nasib Suatu Kaum</a></li>
+<li><a href="Al-Quran/13. Ar-Ra'd/13.htm" target="mframe">Ayat 13 : Guntur/Guruh Bertasbih dan Allah yang Melapaskan Kilat</a></li>
+<li><a href="Al-Quran/13. Ar-Ra'd/14.htm" target="mframe">Ayat 14 : Wewenang Allah Mengabulkan Doa yg Benar, Do'a Orang KAFIR Sia-Sia Belaka</a></li>
+<li><a href="Al-Quran/13. Ar-Ra'd/26.htm" target="mframe">Ayat 26 : Allah meluaskan rezeki dan menyempitkannya</a></li>
+<li><a href="Al-Quran/13. Ar-Ra'd/28.htm" target="mframe">Ayat 28 : Hanya dengan Mengingat Allah Hati Menjadi Tentram</a></li>
+</ul>
+14. Ibrahim 
+<ul>
+<li><a href="Al-Quran/14. Ibrahim/42.htm" target="mframe">Ayat 42 : Allah tidak Lalai dari Orang yang Berbuat Dzolim, Adzab Mereka ditangguhkan sampai Hari Kiamat</a></li>
+</ul>
+<a name="15"></a><CENTER><A HREF="#top">top</A></CENTER>
+15. Al-Hijr 
+<ul>
+<li><a href="Al-Quran/15. Al-Hijr/9.htm" target="mframe">Ayat 9 : Allah Yang Menjaga Al-Quran</a></li>
+</ul>
+16. An-Nahl
+<ul>
+<li><a href="Al-Quran/16. An-Nahl/36.htm" target="mframe">Ayat 36 : Allah Mengutus Rasul untuk Menyeru "Sembahlah Allah dan Jauhi Thagut".</a></li>
+<li><a href="Al-Quran/16. An-Nahl/96.htm" target="mframe">Ayat 96 : Apa yg ada di-Sisimu akan Lenyap, dan Apa yg ada di-Sisi Allah akan Kekal</a></li>
+<li><a href="Al-Quran/16. An-Nahl/125.htm" target="mframe">Ayat 125 : Berda'wah dengan Hikmah</a></li>
+</ul>
+17. Al-Israa'
+<ul>
+<li><a href="Al-Quran/17. Al-Israa'/7.htm" target="mframe">Ayat 7 : Perbuatan Baik itu untuk diri kita sendiri</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/23.htm" target="mframe">Ayat 23-24 : Perintah Berbuat Baik pada Ibu Bapak dan Mendoakan Meraka Berdua</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/30.htm" target="mframe">Ayat 30 : Allah meluaskan rezeki dan menyempitkannya</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/31.htm" target="mframe">Ayat 31 : Allah yang Memberi Rezeki kepada Anak-Anak kita</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/36.htm" target="mframe">Ayat 36 : Larangan Mengikuti yang Kita tidak ketahui</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/37.htm" target="mframe">Ayat 37 : Larangan Berjalan di Muka Bumi Dengan Sombong</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/88.htm" target="mframe">Ayat 88 : Jin dan Manusia berkumpul tidak sanggup membuat yg serupa dengan Al-Quran</a></li>
+<li><a href="Al-Quran/17. Al-Israa'/110.htm" target="mframe">Ayat 110 : Berdoa Dengan Nama2 Allah dan Ta2 Cara Bacaan Sholat</a></li>
+</ul>
+18. Al-Kahfi
+<ul>
+<li><a href="Al-Quran/18. Al-Kahfi/103.htm" target="mframe">Ayat 103-105 : Org2 yang sia2 amalnya karna kafir terhdp ayt2 Tuhan</a></li>
+</ul>
+<a name="19"></a><CENTER><A HREF="#top">top</A></CENTER>
+19. Maryam 
+<ul>
+<li><a href="Al-Quran/19. Maryam/2.htm" target="mframe">Ayat 2-3 : Suara dan Perasaan Waktu Berdo'a</a></li>
+</ul>
+20. Thaahaa
+<ul>
+<li><a href="Al-Quran/20. Thaahaa/82.htm" target="mframe">Ayat 82 : Allah Maha Pengampun</a></li>
+<li><a href="Al-Quran/20. Thaahaa/131.htm" target="mframe">Ayat 131 : Jangan Melihat Kekayaan Org kafir, Itu hanya bunga kehidupan meraka</a></li>
+</ul>
+21. Al-Anbiyaa'
+<ul>
+<li><a href="Al-Quran/21. Al-Anbiyaa'/30.htm" target="mframe">Ayat 30 : Dan Dari AIR Allah Ciptakan Segala Sesuatu</a></li>
+<li><a href="Al-Quran/21. Al-Anbiyaa'/107.htm" target="mframe">Ayat 107 : Rasulullah DiUtus Sebagai Rahmat Seluruh Alam</a></li>
+</ul>
+<a name="24"></a><CENTER><A HREF="#top">top</A></CENTER>
+24. An-Nuur
+<ul>
+<li><a href="Al-Quran/24. An-Nuur/2.htm" target="mframe">Ayat 2 : Bujang dan Prawan Berzina diDera Seratus Kali</a></li>
+<li><a href="Al-Quran/24. An-Nuur/39.htm" target="mframe">Ayat 39 : Orang Kafir amalannya bagaikan fatamorgana di tanah yang datar</a></li>
+<li><a href="Al-Quran/24. An-Nuur/45.htm" target="mframe">Ayat 45 : Dan Dari AIR Allah Ciptakan Segala Binatang/Hewan</a></li>
+<li><a href="Al-Quran/24. An-Nuur/46.htm" target="mframe">Ayat 46 : Allah Telah Menurunkan Ayat2 Yg Menjelaskan</a></li>
+</ul>
+25. Al-Furqaan
+<ul>
+<li><a href="Al-Quran/25. Al-Furqaan/52.htm" target="mframe">Ayat 52 : Larangan Mengikuti Orang Kafir, dan Berjihadlah Terhadap Mereka</a></li>
+</ul>
+26. Asy-Syu'araa'
+<ul>
+<li><a href="Al-Quran/26. Asy-Syu'araa'/214.htm" target="mframe">Ayat 214 : Perintah Mengingatkan / Da'wah Mulai dari Keluarga Dekat</a></li>
+</ul>
+27. An-Naml
+<ul>
+<li><a href="Al-Quran/27. An-Naml/47.htm" target="mframe">Ayat 47 : Perkataan Nabi Sholeh : Nasibmu ada di sisi Allah, Kalian Kaum yg DiUji, Bukan karena kami</a></li>
+<li><a href="Al-Quran/27. An-Naml/62.htm" target="mframe">Ayat 62 : Siapakan yg Mengabulkan Do'a dan Menghilangkan Kesusahan kalau bukan Allah</a></li>
+</ul>
+28. Al-Qashash
+<ul>
+<li><a href="Al-Quran/28. Al-Qashash/78.htm" target="mframe">Ayat 78 : Kufur Nikmat dng berkata "aku diberi/dapat harta karena ilmuku/usahaku"</a></li>
+<li><a href="Al-Quran/28. Al-Qashash/83.htm" target="mframe">Ayat 83 : Negri Akhirat Untuk Org2 yang Tidak Merusak di Bumi</a></li>
+<li><a href="Al-Quran/28. Al-Qashash/84.htm" target="mframe">Ayat 84 : Sp yg Dtng dengan Kebaikan akan Mendapatkan dan sebaliknya</a></li>
+<li><a href="Al-Quran/28. Al-Qashash/56.htm" target="mframe">Ayat 56 : Allah yang memberi Hidayah</a></li>
+</ul>
+<a name="29"></a><CENTER><A HREF="#top">top</A></CENTER>
+29. Al-'Ankabuut
+<ul>
+<li><a href="Al-Quran/29. Al-'Ankabuut/2.htm" target="mframe">Ayat 2-3 : Orang2 Beriman Harus Diuji, dan Allah Tau yang Benar dan yg Dusta</a></li>
+<li><a href="Al-Quran/29. Al-'Ankabuut/17.htm" target="mframe">Ayat 17 : Mintalah Rizki kepada Allah</a></li>
+<li><a href="Al-Quran/29. Al-'Ankabuut/48.htm" target="mframe">Ayat 48 : Orang Akan Ragu Al-Quran jika Rasulullah tau Baca Tulis</a></li>
+<li><a href="Al-Quran/29. Al-'Ankabuut/49.htm" target="mframe">Ayat 49 : Orang yang Mengingkari Ayat Al-Quran adalah Orang Lalim/Dholim</a></li>
+<li><a href="Al-Quran/29. Al-'Ankabuut/51.htm" target="mframe">Ayat 51 : Rahmat dan Pelajaran Dalam Al-Quran </a></li>
+<li><a href="Al-Quran/29. Al-'Ankabuut/57.htm" target="mframe">Ayat 57 : Setiap Jiwa Akan Mati</a></li>
+<li><a href="Al-Quran/29. Al-'Ankabuut/60.htm" target="mframe">Ayat 60 : Allah yang memberi Rizki Binatang2 / Binatang Melata</a></li>
+</ul>
+30. Ar-Ruum
+<ul>
+<li><a href="Al-Quran/30. Ar-Ruum/7.htm" target="mframe">Ayat 7 : Celaan Allah terhadap Orang Lebih Tau Ilmu Dunia dan lalai dari Akhirat</a></li>
+<li><a href="Al-Quran/30. Ar-Ruum/44.htm" target="mframe">Ayat 44 : Barang siapa yang kafir maka dia sendirilah yang menanggung</a></li>
+<li><a href="Al-Quran/30. Ar-Ruum/46.htm" target="mframe">Ayat 46 : Allah Mengirim Angin untuk Berita Gembira dan Untuk Berlayar di lautan</a></li>
+</ul>
+33. Al-Ahzab
+<ul>
+<li><a href="Al-Quran/33. Al-Ahzab/21.htm" target="mframe">Ayat 21: Terdapat Suri Tauladan yang Baik Pada Diri Rasulullah..</a></li>
+<li><a href="Al-Quran/33. Al-Ahzab/72.htm" target="mframe">Ayat 72: Manusia Bersedia Memikul Amanah yang ditolak oleh Langit, Bumi dan Gunung</a></li>
+</ul>
+34. Saba'
+<ul>
+<li><a href="Al-Quran/34. Saba'/28.htm" target="mframe">Ayat 28: Rasulullah di Utus Sebagai Pembawa Berita Gembira dan Pemberi Peringatan</a></li>
+</ul>
+35. Faathir
+<ul>
+<li><a href="Al-Quran/35. Faathir/2.htm" target="mframe">Ayat 2 : Anugrah Allah Brupa Rahmat Tdk dpt di Cegah, dan yg di Tahan Tdk dpt DiLepas</a></li>
+<li><a href="Al-Quran/35. Faathir/28.htm" target="mframe">Ayat 28 : Hamba Allah yang Paling Takut Allah adalah Ulama'</a></li>
+<li><a href="Al-Quran/35. Faathir/32.htm" target="mframe">Ayat 32 : Ummat Islam adalah Ummat Terpilih mendapatkan Warisan Al-Kitab</a></li>
+</ul>
+<a name="36"></a><CENTER><A HREF="#top">top</A></CENTER>
+36. Yaasiin
+<ul>
+<li><a href="Al-Quran/36. Yaasiin/36.htm" target="mframe">Ayat 36 : Allah Menciptakan segala sesuatu Berpasang-Pasang</a></li>
+</ul>
+38. Shaad
+<ul>
+<li><a href="Al-Quran/38. Shaad/4.htm" target="mframe">Ayat 4 : Hinaan Org Kfr Terhdp Nabi : "Ahli Sihir dan berdusta" </a></li>
+<li><a href="Al-Quran/38. Shaad/85.htm" target="mframe">Ayat 85 : Neraka Jahannam Akan dipenuhi Oleh Iblis dan Pengikutnya</a></li>
+</ul>
+39. Az-Zumar
+<ul>
+<li><a href="Al-Quran/39. Az-Zumar/17.htm" target="mframe">Ayat 17-18 : Anjuran Memilih Pendapat Yang Terbaik</a></li>
+<li><a href="Al-Quran/39. Az-Zumar/36.htm" target="mframe">Ayat 36 : Cukup Allah Sebagai Pelindung Hamba2nya</a></li>
+<li><a href="Al-Quran/39. Az-Zumar/38.htm" target="mframe">Ayat 38 : Pengakuan Orang Kafir : Allah Pencipta Langit dan Bumi, yg disembah selain Allah tidak dapat Menghilangkan Kemudhoratan</a></li>
+<li><a href="Al-Quran/39. Az-Zumar/53.htm" target="mframe">Ayat 53 : Hamba Allah Yg Melampaui Batas Jangan Putus Asa Dari Rahmat Allah, Allah Mengampuni Dosa2 Semuanya </a></li>
+</ul>
+40. Al-Mu'min / Gafir
+<ul>
+<li><a href="Al-Quran/40. Al-Mu'min/3.htm" target="mframe">Ayat 3 : Allah Maha Pengampun lagi Menerima Taubat</a></li>
+</ul>
+41. Fushshilat
+<ul>
+<li><a href="Al-Quran/41. Fushshilat/34.htm" target="mframe">Ayat 34 : Tidak Sama Kebaikan dan Kejahatan, Tolaklah Kejahatan itu dengan Cara yg Baik</a></li>
+<li><a href="Al-Quran/41. Fushshilat/35.htm" target="mframe">Ayat 35 : Sifat2 yg Baik itu dianugerahkan kepada Orang2 yg Sabar dan Beruntung Besar</a></li>
+<li><a href="Al-Quran/41. Fushshilat/46.htm" target="mframe">Ayat 46 : Amal Baik dan Jahat akan Kembali Kepada Orangnya</a></li>
+</ul>
+<a name="42"></a><CENTER><A HREF="#top">top</A></CENTER>
+42. Asy-Syuura
+<ul>
+<li><a href="Al-Quran/42. Asy-Syuura/25.htm" target="mframe">Ayat 25 : Allah Menerima Taubat dan Memaafkan Kesalahan2</a></li>
+<li><a href="Al-Quran/42. Asy-Syuura/27.htm" target="mframe">Ayat 27 : Allah Menurunkan Rizki Sesuai Ukuran</a></li>
+<li><a href="Al-Quran/42. Asy-Syuura/49.htm" target="mframe">Ayat 49-50 : Anak Laki2 or Perempauan dan Mandul itu Allah yang Menentukan</a></li>
+<li><a href="Al-Quran/42. Asy-Syuura/51.htm" target="mframe">Ayat 51 : Allah tidak Berkata-kata secara langsung kepada Manusia</a></li>
+</ul>
+45. Al-Jaatsiyah
+<ul>
+<li><a href="Al-Quran/45. Al-Jaatsiyah/15.htm" target="mframe">Ayat 15 : Amal Baik dan Jahat akan Kembali Kepada Orangnya</a></li>
+<li><a href="Al-Quran/45. Al-Jaatsiyah/21.htm" target="mframe">Ayat 21 : Tidak sama orang baik dan orang jahat hidup dan mati</a></li>
+</ul>
+46. Al-Ahqaaf
+<ul>
+<li><a href="Al-Quran/46. Al-Ahqaaf/15.htm" target="mframe">Ayat 15 : Perintah Berbuat Baik pada Ibu Bapak, dan Doa untuk anak cucu/keluarga</a></li>
+</ul>
+47. Muhammad
+<ul>
+<li><a href="Al-Quran/47. Muhammad/4.htm" target="mframe">Ayat 4 : Orang Kafi Sebagai Ujian Untuk Kita Orang Islam/Beriman</a></li>
+<li><a href="Al-Quran/47. Muhammad/9.htm" target="mframe">Ayat 9 : Membenci apa yang Allah Turunkan (Al-Quran) menghapus amal-amal</a></li>
+</ul>
+<a name="53"></a><CENTER><A HREF="#top">top</A></CENTER>
+53. An-Najm
+<ul>
+<li><a href="Al-Quran/53. An-Najm/28.htm" target="mframe">Ayat 28 : Mengikuti Perasangka Tidak Berguna Terhadap Kebenaran </a></li>
+</ul>
+54. Al-Qamar
+<ul>
+<li><a href="Al-Quran/54. Al-Qamar/3.htm" target="mframe">Ayat 3 : Mendustakan Nabi dan Mengikuti Hawa-Nafsu Mereka, Tiap2 urusan sudah ada ketetapannya</a></li>
+<li><a href="Al-Quran/54. Al-Qamar/49.htm" target="mframe">Ayat 49 : Allah Menciptakan Segala Sesuatu Sudah Ada Ukuran</a></li>
+</ul>
+55. Ar-Rahmaan
+<ul>
+<li><a href="Al-Quran/55. Ar-Rahmaan/26.htm" target="mframe">Ayat 26 : Semua yang ada di bumi itu akan Binasa / Hancur</a></li>
+<!-- <li><a href="Al-Quran/55. Ar-Rahmaan/49.htm" target="mframe">Ayat 49 : Allah Menciptakan Segala Sesuatu Sudah Ada Ukuran</a></li> -->
+</ul>
+56. Al-Waaqi'ah
+<ul>
+<li><a href="Al-Quran/56. Al-Waaqi'ah/35.htm" target="mframe">Ayat ...-35-... : Allah Menciptakan Bidadari dan Ni'mat di Sorga</a></li>
+</ul>
+57. Al-Hadiid
+<ul>
+<li><a href="Al-Quran/57. Al-Hadiid/25.htm" target="mframe">Ayat 20 : Kehidupan Dunia ini hanyalah Permainan, dan Kesenangan yg Menipu</a></li>
+<li><a href="Al-Quran/57. Al-Hadiid/25.htm" target="mframe">Ayat 25 : Allah Mengutus Rasul dan Menurunkan Kitab Agar Kita Menegakkan Keadilan</a></li>
+</ul>
+59. Al-Hasyr
+<ul>
+<li><a href="Al-Quran/59. Al-Hasyr/18.htm" target="mframe">Ayat 18 : Bertakwalah, dan Persiapkanlah Diri Untuk Hari Esok (Akhirat)</a></li>
+<li><a href="Al-Quran/59. Al-Hasyr/20.htm" target="mframe">Ayat 20 : Tidak Sama Penghuni Neraka dan Penghuni Sorga</a></li>
+<li><a href="Al-Quran/59. Al-Hasyr/21.htm" target="mframe">Ayat 21 : Sekiranya Al Qur'an di Turunkan kepada sebuah gunung</a></li>
+</ul>
+<a name="64"></a><CENTER><A HREF="#top">top</A></CENTER>
+64. At-Taghaabun
+<ul>
+<li><a href="Al-Quran/64. At-Taghaabun/16.htm" target="mframe">Ayat 16 : Ber-Takwalah Kepada Allah Semampu Kalian</a></li>
+</ul>
+65. Ath-Thalaaq
+<ul>
+<li><a href="Al-Quran/65. Ath-Thalaaq/6.htm" target="mframe">Ayat 6-7 : Nafkah Istri, Berikan Sesuai dengan Kesanggupan</a></li>
+</ul>
+68. Al-Qalam
+<ul>
+<li><a href="Al-Quran/68. Al-Qalam/51.htm" target="mframe">Ayat 51 : Hinaan Org Kfr Bahwa Nabi : "Gila"</a></li>
+</ul>
+70. Al-Ma'aarij
+<ul>
+<li><a href="Al-Quran/70. Al-Ma'aarij/19.htm" target="mframe">Ayat ..19.. : Sifat2 Manusia yg suka berkeluh-kesah</a></li>
+</ul>
+<a name="72"></a><CENTER><A HREF="#top">top</A></CENTER>
+72. Al-Jin
+<ul>
+<li><a href="Al-Quran/72. Al-Jin/26.htm" target="mframe">Ayat 26-27 : Tidak Ada Manusia Yg Tau Masalah Gaib Kecuali Rasul Yg Allah Ridhai</a></li>
+</ul>
+73. Al-Muzzammil
+<ul><li><a href="Al-Quran/73. Al-Muzzammil/4.htm" target="mframe">Ayat 4 : Bacalah Al-Quran itu Dengan Perlahan-Lahan</a></li>
+<li><a href="Al-Quran/73. Al-Muzzammil/20.htm" target="mframe">Ayat 20 : Kita akan mendapatkan Kebaikan yg kita tanam di waktu hidup walau sedikit</a></li>
+<li><a href="Al-Quran/73. Al-Muzzammil/20.htm" target="mframe">Ayat 20 : Bacalah apa yang Mudah (bagimu) dari Al-Quran</a></li>
+</ul>
+75. Al-Qiyaamah
+<ul>
+<li><a href="Al-Quran/75. Al-Qiyaamah/36.htm" target="mframe">Ayat 36 : Manusia Punya Tanggung Jawab</a></li>
+</ul>
+76. Al-Insaan
+<ul>
+<li><a href="Al-Quran/76. Al-Insaan/2.htm" target="mframe">Ayat 2-3 : Manusia Dikasih Petunjuk, Ada Yg Bersukur ada yg Kufur</a></li>
+<li><a href="Al-Quran/76. Al-Insaan/2.htm" target="mframe">Ayat 29 : Ayat2 Al-Quran adalah Peringatan bagi yang Mengambil jalan kepada Tuhannya</a></li>
+</ul>
+<a name="79"></a><CENTER><A HREF="#top">top</A></CENTER>
+79. An-Nazi'at
+<ul>
+<li><a href="Al-Quran/79. An-Nazi'at/40.htm" target="mframe">Ayat 40-41 : Orang2 yang Takut Allah, dan Menahan diri dari Hawa-Nafsu, Sorgalah Tempatnya</a></li>
+</ul>
+83. Al-Muthaffifiin
+<ul>
+<li><a href="Al-Quran/83. Al-Muthaffifiin/29.htm" target="mframe">Ayat 29-33 : Hinaan Org2 Berdosa Kpd Org2 Beriman</a></li>
+<li><a href="Al-Quran/83. Al-Muthaffifiin/34.htm" target="mframe">Ayat 34... : Org2 Beriman Menertawakan Org2 Kafir</a></li>
+</ul>
+87. Al-A'laa
+<ul>
+<li><a href="Al-Quran/87. Al-A'laa/16.htm" target="mframe">Ayat 16 : Orang2 Kafir memilih kehidupan duniawi</a></li>
+<li><a href="Al-Quran/87. Al-A'laa/17.htm" target="mframe">Ayat 17 : Kehidupan Akhirat Lebih Baik dan Kekal</a></li>
+</ul
+<br>
+<hr>
+<center>===Bang Pe Ayat Koleksi===</center>
+</body>
+</html>

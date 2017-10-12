@@ -1,0 +1,21 @@
+.button_1 {
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	background-color:steelblue;
+	cursor: hand;
+	font-weight: bold;
+	height: 22px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	width: 80px;
+	border-top: 1px solid #0099FF;
+	border-right: 3px solid #666666;
+	border-bottom: 3px solid #666666;
+	border-left: 1px solid #0099FF;
+}
+.button_2 {border:#000080 solid; color:#006699; font-family:Arial; font-size:8pt; background-color:#f0f0f0; cursor: hand; border-width: 1px 2px 2px 1px; clip:  rect(   ); height: 18px; padding-right: 1px; padding-left: 1px; font-weight: bold}
+.button_3 {border:#000080 solid; color:#FFFFFF; font-family:Arial; font-size:12px; background-color:#66CC99; font-weight: bold; text-decoration: none; padding-right: 2px; padding-left: 2px; cursor: hand; border-width: 1px 2px 2px 1px; clip:  rect(   ); height: 21px; margin-left: 1px}.button_4 { border:#666666 solid; color:#666666; font-family:Arial, Helvetica, sans-serif; font-size:8pt; background-color:#CCCCCC; cursor: hand; clip:    rect(   ); vertical-align: top; font-weight: bold; text-align: center; height: 18px; margin-left: 1px; width: 110px; border-width: 1px 1px 0px}
+.button_4 { border:#ff6600 solid; color:#ff6600; font-family:Arial, Helvetica, sans-serif; font-size:8pt; cursor: hand; clip: rect( ); vertical-align: top; font-weight: bold; text-align: center; height: 18px; margin-left: 1px; width: 110px; border-width: 2px 2px 0px; background-color: #f0f0f0}
