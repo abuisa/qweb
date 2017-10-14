@@ -10,14 +10,19 @@ How to :
 NB : 	Jika mau Update Ayat Koleksi, Lakukan Update pada file --Ayat-Koleksi.htm-- 
 		Setelah update selesai, lakukan instruksi sebagaimana di --How to--
 '''
-
+def deleteContent(fName):
+    with open(fName, "w"):
+        pass
+	
 def thtm(f,s):
 	f = open(f,"+a") #opens file with name of "test.txt"
 	f.write(s)
 	f.close()
-
+	
+deleteContent('index.html')
 i = 0;
 for l in open('Ayat-Koleksi.htm'):
+	
 	i +=1
 	dn = 'b'+str(i)
 	px = "'px'"
