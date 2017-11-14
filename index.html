@@ -33,6 +33,29 @@ body.enlarged {
 body.enlargedx {
   font-size: 1.1em;
 }
+/*========UNTUK BOTTON GO_2_TOP================*/
+/*=====Untuk Button go to top==== */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: gray;
+  opacity:0.3;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+#myBtn:hover {
+  	background-color: darkgray;
+	opacity:0.8;
+}
+/*========END -- UNTUK BOTTON GO_2_TOP================*/
 </style>
 <script>
 function myFunction(a) {
@@ -45,11 +68,11 @@ function myFunction(a) {
 }
 function zoom() {
 	/*document.body.style.zoom = "400%" */
-	document.body.classList.add('enlarged'); 
+	document.body.classList.add('enlarged');
 }
 function zoomx() {
 	/*document.body.style.zoom = "400%" */
-	document.body.classList.add('enlargedx'); 
+	document.body.classList.add('enlargedx');
 }
 function isphone(){
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -60,587 +83,581 @@ function isphone(){
 		zoomx();//show_a('main','tes_e');
 	}
 }
+
+//--- TAMBAHAN UNTUK BUTTON  GO-TO-TOP ----
+	//========Ini Fungsi Untuk Show Button go-to-top========
+
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		} else {
+		    document.getElementById("myBtn").style.display = "none";
+		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+	//======End Fungsi go-to-top===========
+
 </script>
+<!--<script src="Al-Quran/styles/jquery.min.js"></script>-->
 <meta name="Microsoft Theme" content="none, default">
 </head>
 <body onload="isphone()">
-<a name="top">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <b><font size="5">Daftar Ayat-Ayat Pilihan</font></b>&nbsp;|&nbsp;<a href="old-index.htm" onclick="window.top.location.href = 'old-index.htm';">Old Page </a>&nbsp;|&nbsp;<a href="https://github.com/abuisa/qweb">github</a>
-<TABLE>
-<TR>
-	<TD><A HREF="#3">3</A></TD>
-	<TD><A HREF="#7">7</A></TD>
-	<TD><A HREF="#15">15</A></TD>
-	<TD><A HREF="#19">19</A></TD>
-	<TD><A HREF="#24">24</A></TD>
-	<TD><A HREF="#29">29</A></TD>
-</TR>
-<TR>
-	<TD><A HREF="#36">36</A></TD>
-	<TD><A HREF="#42">42</A></TD>
-	<TD><A HREF="#53">53</A></TD>
-	<TD><A HREF="#64">64</A></TD>
-	<TD><A HREF="#72">72</A></TD>
-	<TD><A HREF="#79">79</A></TD>
-</TR>
-</TABLE><br>
+<br><br>
 2. Al-Baqarah
 <ul>
-<li><a href="Al-Quran/2. Al-Baqarah/40.htm"  onclick="myFunction('b89')" target="b89">Ayat 40 : Memenuhi Janji kita kepada Allah</a></li>
-<div id="b89" style="display:none;"><iframe name="b89" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/85.htm" onclick="myFunction('b90')" target="b90">Ayat 85 : Larangan Beriman Pada Sebagian Kitab dan Inkar pada Sebagiannya</a></li>
-<div id="b90" style="display:none;"><iframe name="b90" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/170.htm" onclick="myFunction('b91')" target="b91">Ayat 170 : Perintah Mengikuti Al-quran Bukan Mengikuti Orang Tua-Tua</a></li>
-<div id="b91" style="display:none;"><iframe name="b91" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/177.htm" onclick="myFunction('b92')" target="b92">Ayat 177 : Sadakah, Nafkah, Pemberian dan Orang-Orang yang Menerimanya</a></li>
-<div id="b92" style="display:none;"><iframe name="b92" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/195.htm" onclick="myFunction('b93')" target="b93">Ayat 195 : Larangan Membinasakan Diri, dan Anjuran Berbuat Baik</a></li>
-<div id="b93" style="display:none;"><iframe name="b93" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/212.htm" onclick="myFunction('b94')" target="b94">Ayat 212 : Dunia dijadikan indah dalam pandangan orang2 kafir, dan mereka memandang hina orang2 yang beriman</a></li>
-<div id="b94" style="display:none;"><iframe name="b94" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/215.htm" onclick="myFunction('b95')" target="b95">Ayat 215 : Sadakah, Nafkah, Pemberian dan Orang-Orang yang Menerimanya</a></li>
-<div id="b95" style="display:none;"><iframe name="b95" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/222.htm" onclick="myFunction('b96')" target="b96">Ayat 222 : Allah cinta Orang yang Bertaubat</a></li>
-<div id="b96" style="display:none;"><iframe name="b96" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/228.htm" onclick="myFunction('b97')" target="b97">Ayat 228 : Massa Iddah Wanita yang di Talak</a></li>
-<div id="b97" style="display:none;"><iframe name="b97" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/234.htm" onclick="myFunction('b98')" target="b98">Ayat 234 : Iddah Perempuan yg mati suaminya</a></li>
-<div id="b98" style="display:none;"><iframe name="b98" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/233.htm" onclick="myFunction('b99')" target="b99">Ayat 233 : Nafkah Istri, Seseorang Tidak dibebani Melainkan Menurut Kadar Kesanggupannya</a></li>
-<div id="b99" style="display:none;"><iframe name="b99" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/255.htm" onclick="myFunction('b100')" target="b100">Ayat 255 : Ayat Kursi</a></li>
-<div id="b100" style="display:none;"><iframe name="b100" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/256.htm" onclick="myFunction('b101')" target="b101">Ayat 256 : Tidak Ada Paksaan dalam Agama, dan jauhi Thogut</a></li>
-<div id="b101" style="display:none;"><iframe name="b101" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/261.htm" onclick="myFunction('b102')" target="b102">Ayat 261 : Allah melipat gandakan kebaikan berlipat2</a></li>
-<div id="b102" style="display:none;"><iframe name="b102" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/2. Al-Baqarah/269.htm" onclick="myFunction('b103')" target="b103">Ayat 269 : Allah Memberi Hikmah = Karunia yg Banyak</a></li>
-<div id="b103" style="display:none;"><iframe name="b103" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-</ul>
-<a name="3"><CENTER><A HREF="#top">top</A></CENTER>
-3. Ali 'Imran 
-<ul>
-<li><a href="Al-Quran/3. Ali 'Imran/14.htm" onclick="myFunction('b108')" target="b108">Ayat 14 : Manusia Dihiasi dengan Cinta Sahwat pada Wanita, Anak2, Harta dll</a></li>
-<div id="b108" style="display:none;"><iframe name="b108" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/26.htm" onclick="myFunction('b109')" target="b109">Ayat 26 : Allah Berikan dan Cabut Kerajaan pada Siapa yg Dia Kehendaki</a></li>
-<div id="b109" style="display:none;"><iframe name="b109" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/64.htm" onclick="myFunction('b110')" target="b110">Ayat 64 : Katakan "Hai Ahlul Kitab marilah kepada satu Kalimat..."</a></li>
-<div id="b110" style="display:none;"><iframe name="b110" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/110.htm" onclick="myFunction('b111')" target="b111">Ayat 110 : Kalian Ummat Islam Ummat Terbaik</a></li>
-<div id="b111" style="display:none;"><iframe name="b111" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/110.htm" onclick="myFunction('b112')" target="b112">Ayat 116 : Harta dan Anak2 org Kafir Tidak Dapat Menolak Azab Allah</a></li>
-<div id="b112" style="display:none;"><iframe name="b112" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/133.htm" onclick="myFunction('b113')" target="b113">Ayat 133 : Sorga Disiapkan Untuk Orang2 yang Bertaqwa dan...</a></li>
-<div id="b113" style="display:none;"><iframe name="b113" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/134.htm" onclick="myFunction('b114')" target="b114">Ayat 134-135 : Ciri-Ciri Orang Bertakwa</a></li>
-<div id="b114" style="display:none;"><iframe name="b114" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/135.htm" onclick="myFunction('b115')" target="b115">Ayat 135 : Jika Bersalah atau Mendolimi diri Segera Ingat Allah dan Bertobat</a></li>
-<div id="b115" style="display:none;"><iframe name="b115" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/145.htm" onclick="myFunction('b116')" target="b116">Ayat 145 : Tidak Akan Mati Kecuali Dengan Izin Allah</a></li>
-<div id="b116" style="display:none;"><iframe name="b116" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/145.htm" onclick="myFunction('b117')" target="b117">Ayat 145 : Siapa yg Menginginkan Pahala dunia Allah Berikan, dan yg ini Pahala Akhirat Allah Berikan...</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/40.htm"  onclick="myFunction('b117')" target="b117">Ayat 40 : Memenuhi Janji kita kepada Allah</a></li>
 <div id="b117" style="display:none;"><iframe name="b117" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/146.htm" onclick="myFunction('b118')" target="b118">Ayat 146 : Orang yg Bersama Nabi Tidak Lemah oleh Bencana yang Menimpa....</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/85.htm" onclick="myFunction('b118')" target="b118">Ayat 85 : Larangan Beriman Pada Sebagian Kitab dan Inkar pada Sebagiannya</a></li>
 <div id="b118" style="display:none;"><iframe name="b118" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/147.htm" onclick="myFunction('b119')" target="b119">Ayat 147 : Doa orang2 yang tertimpa bencana...</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/170.htm" onclick="myFunction('b119')" target="b119">Ayat 170 : Perintah Mengikuti Al-quran Bukan Mengikuti Orang Tua-Tua</a></li>
 <div id="b119" style="display:none;"><iframe name="b119" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/148.htm" onclick="myFunction('b120')" target="b120">Ayat 148 : Allah Memberikan Pahala di-Dunia dan di-Akhirat dan Allah Suka Org yg Berbuat Baik...</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/177.htm" onclick="myFunction('b120')" target="b120">Ayat 177 : Sadakah, Nafkah, Pemberian dan Orang-Orang yang Menerimanya</a></li>
 <div id="b120" style="display:none;"><iframe name="b120" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/154.htm" onclick="myFunction('b121')" target="b121">Ayat 154 : Laragan Berperasangka Buruk Pada Allah, Orang akan Mengikuti Tadirnya (tentan tempat ajal)</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/195.htm" onclick="myFunction('b121')" target="b121">Ayat 195 : Larangan Membinasakan Diri, dan Anjuran Berbuat Baik</a></li>
 <div id="b121" style="display:none;"><iframe name="b121" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/159.htm" onclick="myFunction('b122')" target="b122">Ayat 159 : karena Rahmat Allah kita lemah lembut, kalo kita keras dan kasar orang akan menjauh</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/212.htm" onclick="myFunction('b122')" target="b122">Ayat 212 : Dunia dijadikan indah dalam pandangan orang2 kafir, dan mereka memandang hina orang2 yang beriman</a></li>
 <div id="b122" style="display:none;"><iframe name="b122" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/178.htm" onclick="myFunction('b123')" target="b123">Ayat 178 : Orang2 kafir ditangguhkan Adzabnya dengan diberi umur dan harta agar tambah dosa dan tanggungjawab</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/215.htm" onclick="myFunction('b123')" target="b123">Ayat 215 : Sadakah, Nafkah, Pemberian dan Orang-Orang yang Menerimanya</a></li>
 <div id="b123" style="display:none;"><iframe name="b123" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/185.htm" onclick="myFunction('b124')" target="b124">Ayat 185 : Kehidupan dunia itu tidak lain hanyalah kesenangan yang memperdayakan</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/222.htm" onclick="myFunction('b124')" target="b124">Ayat 222 : Allah cinta Orang yang Bertaubat</a></li>
 <div id="b124" style="display:none;"><iframe name="b124" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/3. Ali 'Imran/186.htm" onclick="myFunction('b125')" target="b125">Ayat 186 : Kamu akan diUji Terhadap Hartamu dan Dirimu, Sabar Menghadapi Ganguan yg Menyakitkan dari Org Ahli Kitab dan Musrik</a></li>
+<li><a href="Al-Quran/2. Al-Baqarah/228.htm" onclick="myFunction('b125')" target="b125">Ayat 228 : Massa Iddah Wanita yang di Talak</a></li>
 <div id="b125" style="display:none;"><iframe name="b125" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/2. Al-Baqarah/234.htm" onclick="myFunction('b126')" target="b126">Ayat 234 : Iddah Perempuan yg mati suaminya</a></li>
+<div id="b126" style="display:none;"><iframe name="b126" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/2. Al-Baqarah/233.htm" onclick="myFunction('b127')" target="b127">Ayat 233 : Nafkah Istri, Seseorang Tidak dibebani Melainkan Menurut Kadar Kesanggupannya</a></li>
+<div id="b127" style="display:none;"><iframe name="b127" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/2. Al-Baqarah/255.htm" onclick="myFunction('b128')" target="b128">Ayat 255 : Ayat Kursi</a></li>
+<div id="b128" style="display:none;"><iframe name="b128" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/2. Al-Baqarah/256.htm" onclick="myFunction('b129')" target="b129">Ayat 256 : Tidak Ada Paksaan dalam Agama, dan jauhi Thogut</a></li>
+<div id="b129" style="display:none;"><iframe name="b129" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/2. Al-Baqarah/261.htm" onclick="myFunction('b130')" target="b130">Ayat 261 : Allah melipat gandakan kebaikan berlipat2</a></li>
+<div id="b130" style="display:none;"><iframe name="b130" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/2. Al-Baqarah/269.htm" onclick="myFunction('b131')" target="b131">Ayat 269 : Allah Memberi Hikmah = Karunia yg Banyak</a></li>
+<div id="b131" style="display:none;"><iframe name="b131" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+</ul>
+3. Ali 'Imran
+<ul>
+<li><a href="Al-Quran/3. Ali 'Imran/14.htm" onclick="myFunction('b135')" target="b135">Ayat 14 : Manusia Dihiasi dengan Cinta Sahwat pada Wanita, Anak2, Harta dll</a></li>
+<div id="b135" style="display:none;"><iframe name="b135" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/26.htm" onclick="myFunction('b136')" target="b136">Ayat 26 : Allah Berikan dan Cabut Kerajaan pada Siapa yg Dia Kehendaki</a></li>
+<div id="b136" style="display:none;"><iframe name="b136" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/64.htm" onclick="myFunction('b137')" target="b137">Ayat 64 : Katakan "Hai Ahlul Kitab marilah kepada satu Kalimat..."</a></li>
+<div id="b137" style="display:none;"><iframe name="b137" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/110.htm" onclick="myFunction('b138')" target="b138">Ayat 110 : Kalian Ummat Islam Ummat Terbaik</a></li>
+<div id="b138" style="display:none;"><iframe name="b138" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/110.htm" onclick="myFunction('b139')" target="b139">Ayat 116 : Harta dan Anak2 org Kafir Tidak Dapat Menolak Azab Allah</a></li>
+<div id="b139" style="display:none;"><iframe name="b139" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/133.htm" onclick="myFunction('b140')" target="b140">Ayat 133 : Sorga Disiapkan Untuk Orang2 yang Bertaqwa dan...</a></li>
+<div id="b140" style="display:none;"><iframe name="b140" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/134.htm" onclick="myFunction('b141')" target="b141">Ayat 134-135 : Ciri-Ciri Orang Bertakwa</a></li>
+<div id="b141" style="display:none;"><iframe name="b141" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/135.htm" onclick="myFunction('b142')" target="b142">Ayat 135 : Jika Bersalah atau Mendolimi diri Segera Ingat Allah dan Bertobat</a></li>
+<div id="b142" style="display:none;"><iframe name="b142" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/145.htm" onclick="myFunction('b143')" target="b143">Ayat 145 : Tidak Akan Mati Kecuali Dengan Izin Allah</a></li>
+<div id="b143" style="display:none;"><iframe name="b143" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/145.htm" onclick="myFunction('b144')" target="b144">Ayat 145 : Siapa yg Menginginkan Pahala dunia Allah Berikan, dan yg ini Pahala Akhirat Allah Berikan...</a></li>
+<div id="b144" style="display:none;"><iframe name="b144" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/146.htm" onclick="myFunction('b145')" target="b145">Ayat 146 : Orang yg Bersama Nabi Tidak Lemah oleh Bencana yang Menimpa....</a></li>
+<div id="b145" style="display:none;"><iframe name="b145" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/147.htm" onclick="myFunction('b146')" target="b146">Ayat 147 : Doa orang2 yang tertimpa bencana...</a></li>
+<div id="b146" style="display:none;"><iframe name="b146" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/148.htm" onclick="myFunction('b147')" target="b147">Ayat 148 : Allah Memberikan Pahala di-Dunia dan di-Akhirat dan Allah Suka Org yg Berbuat Baik...</a></li>
+<div id="b147" style="display:none;"><iframe name="b147" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/154.htm" onclick="myFunction('b148')" target="b148">Ayat 154 : Laragan Berperasangka Buruk Pada Allah, Orang akan Mengikuti Tadirnya (tentan tempat ajal)</a></li>
+<div id="b148" style="display:none;"><iframe name="b148" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/159.htm" onclick="myFunction('b149')" target="b149">Ayat 159 : karena Rahmat Allah kita lemah lembut, kalo kita keras dan kasar orang akan menjauh</a></li>
+<div id="b149" style="display:none;"><iframe name="b149" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/178.htm" onclick="myFunction('b150')" target="b150">Ayat 178 : Orang2 kafir ditangguhkan Adzabnya dengan diberi umur dan harta agar tambah dosa dan tanggungjawab</a></li>
+<div id="b150" style="display:none;"><iframe name="b150" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/185.htm" onclick="myFunction('b151')" target="b151">Ayat 185 : Kehidupan dunia itu tidak lain hanyalah kesenangan yang memperdayakan</a></li>
+<div id="b151" style="display:none;"><iframe name="b151" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/3. Ali 'Imran/186.htm" onclick="myFunction('b152')" target="b152">Ayat 186 : Kamu akan diUji Terhadap Hartamu dan Dirimu, Sabar Menghadapi Ganguan yg Menyakitkan dari Org Ahli Kitab dan Musrik</a></li>
+<div id="b152" style="display:none;"><iframe name="b152" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 4. An-Nisa
 <ul>
-<li><a href="Al-Quran/4. An-Nisaa'/18.htm" onclick="myFunction('b129')" target="b129">Ayat 18 : Waktu Bertobat</a></li>
-<div id="b129" style="display:none;"><iframe name="b129" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/59.htm" onclick="myFunction('b130')" target="b130">Ayat 59 : Jika Ber-Selisih Kembali Kepada Allah dan Rasulullah</a></li>
-<div id="b130" style="display:none;"><iframe name="b130" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/82.htm" onclick="myFunction('b131')" target="b131">Ayat 82 : Jikalau Al-Quran itu Tidak dari sisi Allah maka Terdapat Pertentangan yg banyak</a></li>
-<div id="b131" style="display:none;"><iframe name="b131" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/93.htm" onclick="myFunction('b132')" target="b132">Ayat 93 : Membunuh seorang mu'min dengan sengaja maka balasannya ialah Jahannam, kekal ia di dalamnya</a></li>
-<div id="b132" style="display:none;"><iframe name="b132" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/110.htm" onclick="myFunction('b133')" target="b133">Ayat 110 : Berbuat Jahat dan Mendolimi diri kemudian Bertobat Niscaya ia Dapati Allah Maha Pengampun</a></li>
-<div id="b133" style="display:none;"><iframe name="b133" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/135.htm" onclick="myFunction('b134')" target="b134">Ayat 135 : Wahai Orang Ber-Iman Jadilah Penegak Keadilan</a></li>
-<div id="b134" style="display:none;"><iframe name="b134" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/142.htm" onclick="myFunction('b135')" target="b135">Ayat 142 : Sifat Org Munafik : Menipu Allah, Malas Berdiri Utk Sholat, Riya' dan Sedikit Berdzikir</a></li>
-<div id="b135" style="display:none;"><iframe name="b135" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/144.htm" onclick="myFunction('b136')" target="b136">Ayat 144 : Larangan Menjadikan/Mengambil Org Kafir sebagai WALI</a></li>
-<div id="b136" style="display:none;"><iframe name="b136" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/145.htm" onclick="myFunction('b137')" target="b137">Ayat 145 : Org Munafik Berada pada tingkatan Neraka paling bawah</a></li>
-<div id="b137" style="display:none;"><iframe name="b137" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/148.htm" onclick="myFunction('b138')" target="b138">Ayat 148 : Allah tidak menyukai ucapan buruk dan yang terang</a></li>
-<div id="b138" style="display:none;"><iframe name="b138" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/4. An-Nisaa'/149.htm" onclick="myFunction('b139')" target="b139">Ayat 149 : Meyembunyikan Kebaikan kita dan Memaafkan kesalahan orang lain</a></li>
-<div id="b139" style="display:none;"><iframe name="b139" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/18.htm" onclick="myFunction('b156')" target="b156">Ayat 18 : Waktu Bertobat</a></li>
+<div id="b156" style="display:none;"><iframe name="b156" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/59.htm" onclick="myFunction('b157')" target="b157">Ayat 59 : Jika Ber-Selisih Kembali Kepada Allah dan Rasulullah</a></li>
+<div id="b157" style="display:none;"><iframe name="b157" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/82.htm" onclick="myFunction('b158')" target="b158">Ayat 82 : Jikalau Al-Quran itu Tidak dari sisi Allah maka Terdapat Pertentangan yg banyak</a></li>
+<div id="b158" style="display:none;"><iframe name="b158" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/93.htm" onclick="myFunction('b159')" target="b159">Ayat 93 : Membunuh seorang mu'min dengan sengaja maka balasannya ialah Jahannam, kekal ia di dalamnya</a></li>
+<div id="b159" style="display:none;"><iframe name="b159" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/110.htm" onclick="myFunction('b160')" target="b160">Ayat 110 : Berbuat Jahat dan Mendolimi diri kemudian Bertobat Niscaya ia Dapati Allah Maha Pengampun</a></li>
+<div id="b160" style="display:none;"><iframe name="b160" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/135.htm" onclick="myFunction('b161')" target="b161">Ayat 135 : Wahai Orang Ber-Iman Jadilah Penegak Keadilan</a></li>
+<div id="b161" style="display:none;"><iframe name="b161" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/142.htm" onclick="myFunction('b162')" target="b162">Ayat 142 : Sifat Org Munafik : Menipu Allah, Malas Berdiri Utk Sholat, Riya' dan Sedikit Berdzikir</a></li>
+<div id="b162" style="display:none;"><iframe name="b162" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/144.htm" onclick="myFunction('b163')" target="b163">Ayat 144 : Larangan Menjadikan/Mengambil Org Kafir sebagai WALI</a></li>
+<div id="b163" style="display:none;"><iframe name="b163" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/145.htm" onclick="myFunction('b164')" target="b164">Ayat 145 : Org Munafik Berada pada tingkatan Neraka paling bawah</a></li>
+<div id="b164" style="display:none;"><iframe name="b164" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/148.htm" onclick="myFunction('b165')" target="b165">Ayat 148 : Allah tidak menyukai ucapan buruk dan yang terang</a></li>
+<div id="b165" style="display:none;"><iframe name="b165" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/4. An-Nisaa'/149.htm" onclick="myFunction('b166')" target="b166">Ayat 149 : Meyembunyikan Kebaikan kita dan Memaafkan kesalahan orang lain</a></li>
+<div id="b166" style="display:none;"><iframe name="b166" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 5. Al-Maa`idah
 <ul>
-<li><a href="Al-Quran/5. Al-Maa`idah/38.htm" onclick="myFunction('b143')" target="b143">Ayat 38 : Hukum Pencuri DiPotong Tangan </a></li>
-<div id="b143" style="display:none;"><iframe name="b143" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/5. Al-Maa`idah/44.htm" onclick="myFunction('b144')" target="b144">Ayat 44 : Tidak Berhukum Dengan Hukum Allah : Kafir </a></li>
-<div id="b144" style="display:none;"><iframe name="b144" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/5. Al-Maa`idah/45.htm" onclick="myFunction('b145')" target="b145">Ayat 45 : Tidak Berhukum Dengan Hukum Allah : Dzolim </a></li>
-<div id="b145" style="display:none;"><iframe name="b145" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/5. Al-Maa`idah/47.htm" onclick="myFunction('b146')" target="b146">Ayat 47 : Tidak Berhukum Dengan Hukum Allah : Fasik </a></li>
-<div id="b146" style="display:none;"><iframe name="b146" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/5. Al-Maa`idah/49.htm" onclick="myFunction('b147')" target="b147">Ayat 49 : Perintah Berhukum dengan apa yg Allah Turunkan, dan larangan Mengikuti Hawa Nafsu  </a></li>
-<div id="b147" style="display:none;"><iframe name="b147" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/5. Al-Maa`idah/82.htm" onclick="myFunction('b148')" target="b148">Ayat 82 : Yahudi dan Musrikin paling Keras Terhadap Muslim </a></li>
-<div id="b148" style="display:none;"><iframe name="b148" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/5. Al-Maa`idah/38.htm" onclick="myFunction('b170')" target="b170">Ayat 38 : Hukum Pencuri DiPotong Tangan </a></li>
+<div id="b170" style="display:none;"><iframe name="b170" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/5. Al-Maa`idah/44.htm" onclick="myFunction('b171')" target="b171">Ayat 44 : Tidak Berhukum Dengan Hukum Allah : Kafir </a></li>
+<div id="b171" style="display:none;"><iframe name="b171" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/5. Al-Maa`idah/45.htm" onclick="myFunction('b172')" target="b172">Ayat 45 : Tidak Berhukum Dengan Hukum Allah : Dzolim </a></li>
+<div id="b172" style="display:none;"><iframe name="b172" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/5. Al-Maa`idah/47.htm" onclick="myFunction('b173')" target="b173">Ayat 47 : Tidak Berhukum Dengan Hukum Allah : Fasik </a></li>
+<div id="b173" style="display:none;"><iframe name="b173" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/5. Al-Maa`idah/49.htm" onclick="myFunction('b174')" target="b174">Ayat 49 : Perintah Berhukum dengan apa yg Allah Turunkan, dan larangan Mengikuti Hawa Nafsu  </a></li>
+<div id="b174" style="display:none;"><iframe name="b174" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/5. Al-Maa`idah/82.htm" onclick="myFunction('b175')" target="b175">Ayat 82 : Yahudi dan Musrikin paling Keras Terhadap Muslim </a></li>
+<div id="b175" style="display:none;"><iframe name="b175" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 6. Al-An'am
 <ul>
-<li><a href="Al-Quran/6. Al-An'am/32.htm" onclick="myFunction('b152')" target="b152">Ayat 32 : Kampung Akhirat itu lebih Baik bagi Orang2 yang Bertaqwa</a></li>
-<div id="b152" style="display:none;"><iframe name="b152" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/70.htm" onclick="myFunction('b153')" target="b153">Ayat 70 : Tinggalkanlah orang2 yang menjadikan agama mereka sebagai main2 dan senda gurau</a></li>
-<div id="b153" style="display:none;"><iframe name="b153" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/104.htm" onclick="myFunction('b154')" target="b154">Ayat 104 : Telah Datang dari Allah Bukti2 yg Terang, Sapa yg dapat melihat maka untukna...</a></li>
-<div id="b154" style="display:none;"><iframe name="b154" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/108.htm" onclick="myFunction('b155')" target="b155">Ayat 108 : Larangan Memaki Sembahan2 orang Kafir, karena mereka akan memaki balik</a></li>
-<div id="b155" style="display:none;"><iframe name="b155" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/111.htm" onclick="myFunction('b156')" target="b156">Ayat 111 : Walaupun Malaikat dan orang mati berbicara pada mereka (0rang kafir), mereka tidak beriman kecuali, jika Allah Menghendaki</a></li>
-<div id="b156" style="display:none;"><iframe name="b156" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/116.htm" onclick="myFunction('b157')" target="b157">Ayat 116 : Mengikuti Banyak Orang itu akan Menyesatkanmu</a></li>
-<div id="b157" style="display:none;"><iframe name="b157" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/151.htm" onclick="myFunction('b158')" target="b158">Ayat 151-153 : Hal-Hal Perkara dan Perbuatan yang DiHaramkan Allah pada Manusia</a></li>
-<div id="b158" style="display:none;"><iframe name="b158" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/6. Al-An'am/160.htm" onclick="myFunction('b159')" target="b159">Ayat 160 : Amal Baik 10 x lipat</a></li>
-<div id="b159" style="display:none;"><iframe name="b159" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/32.htm" onclick="myFunction('b179')" target="b179">Ayat 32 : Kampung Akhirat itu lebih Baik bagi Orang2 yang Bertaqwa</a></li>
+<div id="b179" style="display:none;"><iframe name="b179" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/70.htm" onclick="myFunction('b180')" target="b180">Ayat 70 : Tinggalkanlah orang2 yang menjadikan agama mereka sebagai main2 dan senda gurau</a></li>
+<div id="b180" style="display:none;"><iframe name="b180" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/104.htm" onclick="myFunction('b181')" target="b181">Ayat 104 : Telah Datang dari Allah Bukti2 yg Terang, Sapa yg dapat melihat maka untukna...</a></li>
+<div id="b181" style="display:none;"><iframe name="b181" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/108.htm" onclick="myFunction('b182')" target="b182">Ayat 108 : Larangan Memaki Sembahan2 orang Kafir, karena mereka akan memaki balik</a></li>
+<div id="b182" style="display:none;"><iframe name="b182" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/111.htm" onclick="myFunction('b183')" target="b183">Ayat 111 : Walaupun Malaikat dan orang mati berbicara pada mereka (0rang kafir), mereka tidak beriman kecuali, jika Allah Menghendaki</a></li>
+<div id="b183" style="display:none;"><iframe name="b183" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/116.htm" onclick="myFunction('b184')" target="b184">Ayat 116 : Mengikuti Banyak Orang itu akan Menyesatkanmu</a></li>
+<div id="b184" style="display:none;"><iframe name="b184" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/151.htm" onclick="myFunction('b185')" target="b185">Ayat 151-153 : Hal-Hal Perkara dan Perbuatan yang DiHaramkan Allah pada Manusia</a></li>
+<div id="b185" style="display:none;"><iframe name="b185" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/6. Al-An'am/160.htm" onclick="myFunction('b186')" target="b186">Ayat 160 : Amal Baik 10 x lipat</a></li>
+<div id="b186" style="display:none;"><iframe name="b186" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="7"></a><CENTER><A HREF="#top">top</A></CENTER>
-7. Al-A'raaf 
+7. Al-A'raaf
 <ul>
-<li><a href="Al-Quran/7. Al-A'raaf/27.htm" onclick="myFunction('b164')" target="b164">Ayat 27 : Allah Jadikan Setan Pemimpin Orang2 yang Tidak Beriman</a></li>
-<div id="b164" style="display:none;"><iframe name="b164" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/7. Al-A'raaf/28.htm" onclick="myFunction('b165')" target="b165">Ayat 28 : Allah Tidak Memerintahkan Berbuat Keji</a></li>
-<div id="b165" style="display:none;"><iframe name="b165" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/7. Al-A'raaf/30.htm" onclick="myFunction('b166')" target="b166">Ayat 30 : Orang2 yang mengira meraka mendapat Petunjuk Padalah meraka Wali Setan</a></li>
-<div id="b166" style="display:none;"><iframe name="b166" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/7. Al-A'raaf/55.htm" onclick="myFunction('b167')" target="b167">Ayat 55 : Tata Cara Berdo'a</a></li>
-<div id="b167" style="display:none;"><iframe name="b167" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/7. Al-A'raaf/188.htm" onclick="myFunction('b168')" target="b168">Ayat 188 : Rasulullah-pun Tak Kuasa Menarik Manfaat dan Menolak Mudharat, dan Tidak Mengetahui Perkara Gaib</a></li>
-<div id="b168" style="display:none;"><iframe name="b168" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/7. Al-A'raaf/204.htm" onclick="myFunction('b169')" target="b169">Ayat 204 : Jika diBaca Ayat Al-Quran... Dengarkan</a></li>
-<div id="b169" style="display:none;"><iframe name="b169" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/7. Al-A'raaf/205.htm" onclick="myFunction('b170')" target="b170">Ayat 205 : Tata Cara Berdo'a</a></li>
-<div id="b170" style="display:none;"><iframe name="b170" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/27.htm" onclick="myFunction('b190')" target="b190">Ayat 27 : Allah Jadikan Setan Pemimpin Orang2 yang Tidak Beriman</a></li>
+<div id="b190" style="display:none;"><iframe name="b190" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/28.htm" onclick="myFunction('b191')" target="b191">Ayat 28 : Allah Tidak Memerintahkan Berbuat Keji</a></li>
+<div id="b191" style="display:none;"><iframe name="b191" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/30.htm" onclick="myFunction('b192')" target="b192">Ayat 30 : Orang2 yang mengira meraka mendapat Petunjuk Padalah meraka Wali Setan</a></li>
+<div id="b192" style="display:none;"><iframe name="b192" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/55.htm" onclick="myFunction('b193')" target="b193">Ayat 55 : Tata Cara Berdo'a</a></li>
+<div id="b193" style="display:none;"><iframe name="b193" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/188.htm" onclick="myFunction('b194')" target="b194">Ayat 188 : Rasulullah-pun Tak Kuasa Menarik Manfaat dan Menolak Mudharat, dan Tidak Mengetahui Perkara Gaib</a></li>
+<div id="b194" style="display:none;"><iframe name="b194" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/204.htm" onclick="myFunction('b195')" target="b195">Ayat 204 : Jika diBaca Ayat Al-Quran... Dengarkan</a></li>
+<div id="b195" style="display:none;"><iframe name="b195" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/7. Al-A'raaf/205.htm" onclick="myFunction('b196')" target="b196">Ayat 205 : Tata Cara Berdo'a</a></li>
+<div id="b196" style="display:none;"><iframe name="b196" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 8. Al-Anfaal
 <ul>
-<li><a href="Al-Quran/8. Al-Anfaal/60.htm" onclick="myFunction('b174')" target="b174">Ayat 60 : Persiapkan Kekuatan apa saja, Apa Saja Yg DiInfakkan di Jalan Allah Akan Disempurnakan Balasannya</a></li>
-<div id="b174" style="display:none;"><iframe name="b174" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/8. Al-Anfaal/60.htm" onclick="myFunction('b200')" target="b200">Ayat 60 : Persiapkan Kekuatan apa saja, Apa Saja Yg DiInfakkan di Jalan Allah Akan Disempurnakan Balasannya</a></li>
+<div id="b200" style="display:none;"><iframe name="b200" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 9. At-Taubah
 <ul>
-<li><a href="Al-Quran/9. At-Taubah/13.htm" onclick="myFunction('b178')" target="b178">Ayat 13 : Allah Lebih Berhak Untuk Di-Takuti</a></li>
-<div id="b178" style="display:none;"><iframe name="b178" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/9. At-Taubah/19.htm" onclick="myFunction('b179')" target="b179">Ayat 19-21 : Tidak Sama Mengurus Haji dan Jihad</a></li>
-<div id="b179" style="display:none;"><iframe name="b179" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/9. At-Taubah/28.htm" onclick="myFunction('b180')" target="b180">Ayat 28 : Org Kafir Musrik itu Najis</a></li>
-<div id="b180" style="display:none;"><iframe name="b180" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/9. At-Taubah/31.htm" onclick="myFunction('b181')" target="b181">Ayat 31 : Org Kafir Menjadikan Rahib Sebagai Tuhan</a></li>
-<div id="b181" style="display:none;"><iframe name="b181" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/9. At-Taubah/51.htm" onclick="myFunction('b182')" target="b182">Ayat 51 : Tdk akan menimpa seseorang kecuali telah ditetapkan</a></li>
-<div id="b182" style="display:none;"><iframe name="b182" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/9. At-Taubah/55.htm" onclick="myFunction('b183')" target="b183">Ayat 55 : Larangan Kagum harta org Kafir</a></li>
-<div id="b183" style="display:none;"><iframe name="b183" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/9. At-Taubah/126.htm" onclick="myFunction('b184')" target="b184">Ayat 126 : Orang Munafik Tidak Dapat Mengambil Pelajaran dari diUji</a></li>
-<div id="b184" style="display:none;"><iframe name="b184" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/13.htm" onclick="myFunction('b204')" target="b204">Ayat 13 : Allah Lebih Berhak Untuk Di-Takuti</a></li>
+<div id="b204" style="display:none;"><iframe name="b204" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/19.htm" onclick="myFunction('b205')" target="b205">Ayat 19-21 : Tidak Sama Mengurus Haji dan Jihad</a></li>
+<div id="b205" style="display:none;"><iframe name="b205" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/28.htm" onclick="myFunction('b206')" target="b206">Ayat 28 : Org Kafir Musrik itu Najis</a></li>
+<div id="b206" style="display:none;"><iframe name="b206" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/31.htm" onclick="myFunction('b207')" target="b207">Ayat 31 : Org Kafir Menjadikan Rahib Sebagai Tuhan</a></li>
+<div id="b207" style="display:none;"><iframe name="b207" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/51.htm" onclick="myFunction('b208')" target="b208">Ayat 51 : Tdk akan menimpa seseorang kecuali telah ditetapkan</a></li>
+<div id="b208" style="display:none;"><iframe name="b208" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/55.htm" onclick="myFunction('b209')" target="b209">Ayat 55 : Larangan Kagum harta org Kafir</a></li>
+<div id="b209" style="display:none;"><iframe name="b209" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/9. At-Taubah/126.htm" onclick="myFunction('b210')" target="b210">Ayat 126 : Orang Munafik Tidak Dapat Mengambil Pelajaran dari diUji</a></li>
+<div id="b210" style="display:none;"><iframe name="b210" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 10. Yunus
 <ul>
-<li><a href="Al-Quran/10. Yunus/26.htm" onclick="myFunction('b188')" target="b188">Ayat 26 : Berbuat Baik Dapat Sorga</a></li>
-<div id="b188" style="display:none;"><iframe name="b188" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/10. Yunus/27.htm" onclick="myFunction('b189')" target="b189">Ayat 27 : Berbuat Jahat Dapat Neraka</a></li>
-<div id="b189" style="display:none;"><iframe name="b189" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/10. Yunus/100.htm" onclick="myFunction('b190')" target="b190">Ayat 100 : Orang Beriman Karena Izin Allah</a></li>
-<div id="b190" style="display:none;"><iframe name="b190" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/10. Yunus/107.htm" onclick="myFunction('b191')" target="b191">Ayat 107 : Tdk Ada yang dapat Mencegah Kemudaratan Kecuali Allah</a></li>
-<div id="b191" style="display:none;"><iframe name="b191" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/10. Yunus/26.htm" onclick="myFunction('b214')" target="b214">Ayat 26 : Berbuat Baik Dapat Sorga</a></li>
+<div id="b214" style="display:none;"><iframe name="b214" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/10. Yunus/27.htm" onclick="myFunction('b215')" target="b215">Ayat 27 : Berbuat Jahat Dapat Neraka</a></li>
+<div id="b215" style="display:none;"><iframe name="b215" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/10. Yunus/100.htm" onclick="myFunction('b216')" target="b216">Ayat 100 : Orang Beriman Karena Izin Allah</a></li>
+<div id="b216" style="display:none;"><iframe name="b216" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/10. Yunus/107.htm" onclick="myFunction('b217')" target="b217">Ayat 107 : Tdk Ada yang dapat Mencegah Kemudaratan Kecuali Allah</a></li>
+<div id="b217" style="display:none;"><iframe name="b217" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 11. Huud
 <ul>
-<li><a href="Al-Quran/11. Huud/6.htm" onclick="myFunction('b195')" target="b195">Ayat 6 : Allah Yang Memberi Rizki binatang melata</a></li>
-<div id="b195" style="display:none;"><iframe name="b195" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/11. Huud/56.htm" onclick="myFunction('b196')" target="b196">Ayat 56 : Allah Yang memegang ubun2 binatang melata</a></li>
-<div id="b196" style="display:none;"><iframe name="b196" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/11. Huud/114.htm" onclick="myFunction('b197')" target="b197">Ayat 114 : Perbuatan Baik itu Menghapus Perbuatan Buruk (Dosa)</a></li>
-<div id="b197" style="display:none;"><iframe name="b197" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/11. Huud/6.htm" onclick="myFunction('b221')" target="b221">Ayat 6 : Allah Yang Memberi Rizki binatang melata</a></li>
+<div id="b221" style="display:none;"><iframe name="b221" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/11. Huud/56.htm" onclick="myFunction('b222')" target="b222">Ayat 56 : Allah Yang memegang ubun2 binatang melata</a></li>
+<div id="b222" style="display:none;"><iframe name="b222" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/11. Huud/114.htm" onclick="myFunction('b223')" target="b223">Ayat 114 : Perbuatan Baik itu Menghapus Perbuatan Buruk (Dosa)</a></li>
+<div id="b223" style="display:none;"><iframe name="b223" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 12. Yusuf
 <ul>
-<li><a href="Al-Quran/12. Yusuf/24.htm" onclick="myFunction('b201')" target="b201">Ayat 24 : Wanita dan Yusuf Sama Suka...?</a></li>
-<div id="b201" style="display:none;"><iframe name="b201" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/12. Yusuf/24.htm" onclick="myFunction('b227')" target="b227">Ayat 24 : Wanita dan Yusuf Sama Suka...?</a></li>
+<div id="b227" style="display:none;"><iframe name="b227" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 13. Ar-Ra'd
 <ul>
-<li><a href="Al-Quran/13. Ar-Ra'd/11.htm" onclick="myFunction('b205')" target="b205">Ayat 11 : Allah Tidak Akan Merobah Nasib Suatu Kaum</a></li>
-<div id="b205" style="display:none;"><iframe name="b205" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/13. Ar-Ra'd/13.htm" onclick="myFunction('b206')" target="b206">Ayat 13 : Guntur/Guruh Bertasbih dan Allah yang Melapaskan Kilat</a></li>
-<div id="b206" style="display:none;"><iframe name="b206" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/13. Ar-Ra'd/14.htm" onclick="myFunction('b207')" target="b207">Ayat 14 : Wewenang Allah Mengabulkan Doa yg Benar, Do'a Orang KAFIR Sia-Sia Belaka</a></li>
-<div id="b207" style="display:none;"><iframe name="b207" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/13. Ar-Ra'd/26.htm" onclick="myFunction('b208')" target="b208">Ayat 26 : Allah meluaskan rezeki dan menyempitkannya</a></li>
-<div id="b208" style="display:none;"><iframe name="b208" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/13. Ar-Ra'd/28.htm" onclick="myFunction('b209')" target="b209">Ayat 28 : Hanya dengan Mengingat Allah Hati Menjadi Tentram</a></li>
-<div id="b209" style="display:none;"><iframe name="b209" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/13. Ar-Ra'd/11.htm" onclick="myFunction('b231')" target="b231">Ayat 11 : Allah Tidak Akan Merobah Nasib Suatu Kaum</a></li>
+<div id="b231" style="display:none;"><iframe name="b231" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/13. Ar-Ra'd/13.htm" onclick="myFunction('b232')" target="b232">Ayat 13 : Guntur/Guruh Bertasbih dan Allah yang Melapaskan Kilat</a></li>
+<div id="b232" style="display:none;"><iframe name="b232" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/13. Ar-Ra'd/14.htm" onclick="myFunction('b233')" target="b233">Ayat 14 : Wewenang Allah Mengabulkan Doa yg Benar, Do'a Orang KAFIR Sia-Sia Belaka</a></li>
+<div id="b233" style="display:none;"><iframe name="b233" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/13. Ar-Ra'd/26.htm" onclick="myFunction('b234')" target="b234">Ayat 26 : Allah meluaskan rezeki dan menyempitkannya</a></li>
+<div id="b234" style="display:none;"><iframe name="b234" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/13. Ar-Ra'd/28.htm" onclick="myFunction('b235')" target="b235">Ayat 28 : Hanya dengan Mengingat Allah Hati Menjadi Tentram</a></li>
+<div id="b235" style="display:none;"><iframe name="b235" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-14. Ibrahim 
+14. Ibrahim
 <ul>
-<li><a href="Al-Quran/14. Ibrahim/42.htm" onclick="myFunction('b213')" target="b213">Ayat 42 : Allah tidak Lalai dari Orang yang Berbuat Dzolim, Adzab Mereka ditangguhkan sampai Hari Kiamat</a></li>
-<div id="b213" style="display:none;"><iframe name="b213" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/14. Ibrahim/42.htm" onclick="myFunction('b214')" target="b214">Ayat 42 : Allah tidak lengah atau tidak luput atas apa yang dikerjakan/diperbuat oleh manusia</a></li>
-<div id="b214" style="display:none;"><iframe name="b214" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/14. Ibrahim/42.htm" onclick="myFunction('b239')" target="b239">Ayat 42 : Allah tidak Lalai dari Orang yang Berbuat Dzolim, Adzab Mereka ditangguhkan sampai Hari Kiamat</a></li>
+<div id="b239" style="display:none;"><iframe name="b239" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/14. Ibrahim/42.htm" onclick="myFunction('b240')" target="b240">Ayat 42 : Allah tidak lengah atau tidak luput atas apa yang dikerjakan/diperbuat oleh manusia</a></li>
+<div id="b240" style="display:none;"><iframe name="b240" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="15"></a><CENTER><A HREF="#top">top</A></CENTER>
-15. Al-Hijr 
+15. Al-Hijr
 <ul>
-<li><a href="Al-Quran/15. Al-Hijr/9.htm" onclick="myFunction('b219')" target="b219">Ayat 9 : Allah Yang Menjaga Al-Quran</a></li>
-<div id="b219" style="display:none;"><iframe name="b219" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/15. Al-Hijr/9.htm" onclick="myFunction('b244')" target="b244">Ayat 9 : Allah Yang Menjaga Al-Quran</a></li>
+<div id="b244" style="display:none;"><iframe name="b244" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 16. An-Nahl
 <ul>
-<li><a href="Al-Quran/16. An-Nahl/36.htm" onclick="myFunction('b223')" target="b223">Ayat 36 : Allah Mengutus Rasul untuk Menyeru "Sembahlah Allah dan Jauhi Thagut".</a></li>
-<div id="b223" style="display:none;"><iframe name="b223" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/16. An-Nahl/96.htm" onclick="myFunction('b224')" target="b224">Ayat 96 : Apa yg ada di-Sisimu akan Lenyap, dan Apa yg ada di-Sisi Allah akan Kekal</a></li>
-<div id="b224" style="display:none;"><iframe name="b224" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/16. An-Nahl/125.htm" onclick="myFunction('b225')" target="b225">Ayat 125 : Berda'wah dengan Hikmah</a></li>
-<div id="b225" style="display:none;"><iframe name="b225" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/16. An-Nahl/36.htm" onclick="myFunction('b248')" target="b248">Ayat 36 : Allah Mengutus Rasul untuk Menyeru "Sembahlah Allah dan Jauhi Thagut".</a></li>
+<div id="b248" style="display:none;"><iframe name="b248" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/16. An-Nahl/96.htm" onclick="myFunction('b249')" target="b249">Ayat 96 : Apa yg ada di-Sisimu akan Lenyap, dan Apa yg ada di-Sisi Allah akan Kekal</a></li>
+<div id="b249" style="display:none;"><iframe name="b249" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/16. An-Nahl/125.htm" onclick="myFunction('b250')" target="b250">Ayat 125 : Berda'wah dengan Hikmah</a></li>
+<div id="b250" style="display:none;"><iframe name="b250" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 17. Al-Israa'
 <ul>
-<li><a href="Al-Quran/17. Al-Israa'/7.htm" onclick="myFunction('b229')" target="b229">Ayat 7 : Perbuatan Baik itu untuk diri kita sendiri</a></li>
-<div id="b229" style="display:none;"><iframe name="b229" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/23.htm" onclick="myFunction('b230')" target="b230">Ayat 23-24 : Perintah Berbuat Baik pada Ibu Bapak dan Mendoakan Meraka Berdua</a></li>
-<div id="b230" style="display:none;"><iframe name="b230" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/30.htm" onclick="myFunction('b231')" target="b231">Ayat 30 : Allah meluaskan rezeki dan menyempitkannya</a></li>
-<div id="b231" style="display:none;"><iframe name="b231" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/31.htm" onclick="myFunction('b232')" target="b232">Ayat 31 : Allah yang Memberi Rezeki kepada Anak-Anak kita</a></li>
-<div id="b232" style="display:none;"><iframe name="b232" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/36.htm" onclick="myFunction('b233')" target="b233">Ayat 36 : Larangan Mengikuti yang Kita tidak ketahui</a></li>
-<div id="b233" style="display:none;"><iframe name="b233" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/37.htm" onclick="myFunction('b234')" target="b234">Ayat 37 : Larangan Berjalan di Muka Bumi Dengan Sombong</a></li>
-<div id="b234" style="display:none;"><iframe name="b234" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/88.htm" onclick="myFunction('b235')" target="b235">Ayat 88 : Jin dan Manusia berkumpul tidak sanggup membuat yg serupa dengan Al-Quran</a></li>
-<div id="b235" style="display:none;"><iframe name="b235" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/17. Al-Israa'/110.htm" onclick="myFunction('b236')" target="b236">Ayat 110 : Berdoa Dengan Nama2 Allah dan Ta2 Cara Bacaan Sholat</a></li>
-<div id="b236" style="display:none;"><iframe name="b236" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/7.htm" onclick="myFunction('b254')" target="b254">Ayat 7 : Perbuatan Baik itu untuk diri kita sendiri</a></li>
+<div id="b254" style="display:none;"><iframe name="b254" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/23.htm" onclick="myFunction('b255')" target="b255">Ayat 23-24 : Perintah Berbuat Baik pada Ibu Bapak dan Mendoakan Meraka Berdua</a></li>
+<div id="b255" style="display:none;"><iframe name="b255" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/30.htm" onclick="myFunction('b256')" target="b256">Ayat 30 : Allah meluaskan rezeki dan menyempitkannya</a></li>
+<div id="b256" style="display:none;"><iframe name="b256" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/31.htm" onclick="myFunction('b257')" target="b257">Ayat 31 : Allah yang Memberi Rezeki kepada Anak-Anak kita</a></li>
+<div id="b257" style="display:none;"><iframe name="b257" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/36.htm" onclick="myFunction('b258')" target="b258">Ayat 36 : Larangan Mengikuti yang Kita tidak ketahui</a></li>
+<div id="b258" style="display:none;"><iframe name="b258" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/37.htm" onclick="myFunction('b259')" target="b259">Ayat 37 : Larangan Berjalan di Muka Bumi Dengan Sombong</a></li>
+<div id="b259" style="display:none;"><iframe name="b259" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/88.htm" onclick="myFunction('b260')" target="b260">Ayat 88 : Jin dan Manusia berkumpul tidak sanggup membuat yg serupa dengan Al-Quran</a></li>
+<div id="b260" style="display:none;"><iframe name="b260" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/17. Al-Israa'/110.htm" onclick="myFunction('b261')" target="b261">Ayat 110 : Berdoa Dengan Nama2 Allah dan Ta2 Cara Bacaan Sholat</a></li>
+<div id="b261" style="display:none;"><iframe name="b261" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 18. Al-Kahfi
 <ul>
-<li><a href="Al-Quran/18. Al-Kahfi/103.htm" onclick="myFunction('b240')" target="b240">Ayat 103-105 : Org2 yang sia2 amalnya karna kafir terhdp ayt2 Tuhan</a></li>
-<div id="b240" style="display:none;"><iframe name="b240" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/18. Al-Kahfi/103.htm" onclick="myFunction('b265')" target="b265">Ayat 103-105 : Org2 yang sia2 amalnya karna kafir terhdp ayt2 Tuhan</a></li>
+<div id="b265" style="display:none;"><iframe name="b265" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="19"></a><CENTER><A HREF="#top">top</A></CENTER>
-19. Maryam 
+19. Maryam
 <ul>
-<li><a href="Al-Quran/19. Maryam/2.htm" onclick="myFunction('b245')" target="b245">Ayat 2-3 : Suara dan Perasaan Waktu Berdo'a</a></li>
-<div id="b245" style="display:none;"><iframe name="b245" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/19. Maryam/2.htm" onclick="myFunction('b269')" target="b269">Ayat 2-3 : Suara dan Perasaan Waktu Berdo'a</a></li>
+<div id="b269" style="display:none;"><iframe name="b269" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 20. Thaahaa
 <ul>
-<li><a href="Al-Quran/20. Thaahaa/82.htm" onclick="myFunction('b249')" target="b249">Ayat 82 : Allah Maha Pengampun</a></li>
-<div id="b249" style="display:none;"><iframe name="b249" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/20. Thaahaa/131.htm" onclick="myFunction('b250')" target="b250">Ayat 131 : Jangan Melihat Kekayaan Org kafir, Itu hanya bunga kehidupan meraka</a></li>
-<div id="b250" style="display:none;"><iframe name="b250" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/20. Thaahaa/82.htm" onclick="myFunction('b273')" target="b273">Ayat 82 : Allah Maha Pengampun</a></li>
+<div id="b273" style="display:none;"><iframe name="b273" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/20. Thaahaa/131.htm" onclick="myFunction('b274')" target="b274">Ayat 131 : Jangan Melihat Kekayaan Org kafir, Itu hanya bunga kehidupan meraka</a></li>
+<div id="b274" style="display:none;"><iframe name="b274" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 21. Al-Anbiyaa'
 <ul>
-<li><a href="Al-Quran/21. Al-Anbiyaa'/30.htm" onclick="myFunction('b254')" target="b254">Ayat 30 : Dan Dari AIR Allah Ciptakan Segala Sesuatu</a></li>
-<div id="b254" style="display:none;"><iframe name="b254" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/21. Al-Anbiyaa'/107.htm" onclick="myFunction('b255')" target="b255">Ayat 107 : Rasulullah DiUtus Sebagai Rahmat Seluruh Alam</a></li>
-<div id="b255" style="display:none;"><iframe name="b255" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/21. Al-Anbiyaa'/30.htm" onclick="myFunction('b278')" target="b278">Ayat 30 : Dan Dari AIR Allah Ciptakan Segala Sesuatu</a></li>
+<div id="b278" style="display:none;"><iframe name="b278" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/21. Al-Anbiyaa'/107.htm" onclick="myFunction('b279')" target="b279">Ayat 107 : Rasulullah DiUtus Sebagai Rahmat Seluruh Alam</a></li>
+<div id="b279" style="display:none;"><iframe name="b279" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="24"></a><CENTER><A HREF="#top">top</A></CENTER>
 24. An-Nuur
 <ul>
-<li><a href="Al-Quran/24. An-Nuur/2.htm" onclick="myFunction('b260')" target="b260">Ayat 2 : Bujang dan Prawan Berzina diDera Seratus Kali</a></li>
-<div id="b260" style="display:none;"><iframe name="b260" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/24. An-Nuur/39.htm" onclick="myFunction('b261')" target="b261">Ayat 39 : Orang Kafir amalannya bagaikan fatamorgana di tanah yang datar</a></li>
-<div id="b261" style="display:none;"><iframe name="b261" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/24. An-Nuur/45.htm" onclick="myFunction('b262')" target="b262">Ayat 45 : Dan Dari AIR Allah Ciptakan Segala Binatang/Hewan</a></li>
-<div id="b262" style="display:none;"><iframe name="b262" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/24. An-Nuur/46.htm" onclick="myFunction('b263')" target="b263">Ayat 46 : Allah Telah Menurunkan Ayat2 Yg Menjelaskan</a></li>
-<div id="b263" style="display:none;"><iframe name="b263" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/24. An-Nuur/2.htm" onclick="myFunction('b283')" target="b283">Ayat 2 : Bujang dan Prawan Berzina diDera Seratus Kali</a></li>
+<div id="b283" style="display:none;"><iframe name="b283" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/24. An-Nuur/39.htm" onclick="myFunction('b284')" target="b284">Ayat 39 : Orang Kafir amalannya bagaikan fatamorgana di tanah yang datar</a></li>
+<div id="b284" style="display:none;"><iframe name="b284" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/24. An-Nuur/45.htm" onclick="myFunction('b285')" target="b285">Ayat 45 : Dan Dari AIR Allah Ciptakan Segala Binatang/Hewan</a></li>
+<div id="b285" style="display:none;"><iframe name="b285" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/24. An-Nuur/46.htm" onclick="myFunction('b286')" target="b286">Ayat 46 : Allah Telah Menurunkan Ayat2 Yg Menjelaskan</a></li>
+<div id="b286" style="display:none;"><iframe name="b286" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 25. Al-Furqaan
 <ul>
-<li><a href="Al-Quran/25. Al-Furqaan/52.htm" onclick="myFunction('b267')" target="b267">Ayat 52 : Larangan Mengikuti Orang Kafir, dan Berjihadlah Terhadap Mereka</a></li>
-<div id="b267" style="display:none;"><iframe name="b267" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/25. Al-Furqaan/52.htm" onclick="myFunction('b290')" target="b290">Ayat 52 : Larangan Mengikuti Orang Kafir, dan Berjihadlah Terhadap Mereka</a></li>
+<div id="b290" style="display:none;"><iframe name="b290" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 26. Asy-Syu'araa'
 <ul>
-<li><a href="Al-Quran/26. Asy-Syu'araa'/214.htm" onclick="myFunction('b271')" target="b271">Ayat 214 : Perintah Mengingatkan / Da'wah Mulai dari Keluarga Dekat</a></li>
-<div id="b271" style="display:none;"><iframe name="b271" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/26. Asy-Syu'araa'/214.htm" onclick="myFunction('b294')" target="b294">Ayat 214 : Perintah Mengingatkan / Da'wah Mulai dari Keluarga Dekat</a></li>
+<div id="b294" style="display:none;"><iframe name="b294" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 27. An-Naml
 <ul>
-<li><a href="Al-Quran/27. An-Naml/19.htm" onclick="myFunction('b275')" target="b275">Ayat 19 : Doa sebagai bentuk sukur atas segala nikmat, Doa untuk selalu bersukur karena diberi nikmat oleh Allah</a></li>
-<div id="b275" style="display:none;"><iframe name="b275" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/27. An-Naml/40.htm" onclick="myFunction('b276')" target="b276">Ayat 40 : Diberi nikmat sebagai cobaan atau ujian agar kita Bersukur atau kufur, jika bersukur berarti bersukur untu diri kita sendiri</a></li>
-<div id="b276" style="display:none;"><iframe name="b276" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/27. An-Naml/47.htm" onclick="myFunction('b277')" target="b277">Ayat 47 : Perkataan Nabi Sholeh : Nasibmu ada di sisi Allah, Kalian Kaum yg DiUji, Bukan karena kami</a></li>
-<div id="b277" style="display:none;"><iframe name="b277" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/27. An-Naml/62.htm" onclick="myFunction('b278')" target="b278">Ayat 62 : Siapakan yg Mengabulkan Do'a dan Menghilangkan Kesusahan kalau bukan Allah</a></li>
-<div id="b278" style="display:none;"><iframe name="b278" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/27. An-Naml/93.htm" onclick="myFunction('b279')" target="b279">Ayat 93 : Allah tidak lengah atau tidak luput atas apa yang kita kerjakan/perbuat/amalan kita</a></li>
-<div id="b279" style="display:none;"><iframe name="b279" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/27. An-Naml/93.htm" onclick="myFunction('b280')" target="b280">Ayat 93 : Akan diperlihatkan tanda-tanda kebesaran Allah dan kalian akan mengetahuinya, disebutkan juga di 41:53 </a></li> 
-<div id="b280" style="display:none;"><iframe name="b280" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/27. An-Naml/19.htm" onclick="myFunction('b298')" target="b298">Ayat 19 : Doa sebagai bentuk sukur atas segala nikmat, Doa untuk selalu bersukur karena diberi nikmat oleh Allah</a></li>
+<div id="b298" style="display:none;"><iframe name="b298" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/27. An-Naml/40.htm" onclick="myFunction('b299')" target="b299">Ayat 40 : Diberi nikmat sebagai cobaan atau ujian agar kita Bersukur atau kufur, jika bersukur berarti bersukur untu diri kita sendiri</a></li>
+<div id="b299" style="display:none;"><iframe name="b299" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/27. An-Naml/47.htm" onclick="myFunction('b300')" target="b300">Ayat 47 : Perkataan Nabi Sholeh : Nasibmu ada di sisi Allah, Kalian Kaum yg DiUji, Bukan karena kami</a></li>
+<div id="b300" style="display:none;"><iframe name="b300" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/27. An-Naml/62.htm" onclick="myFunction('b301')" target="b301">Ayat 62 : Siapakan yg Mengabulkan Do'a dan Menghilangkan Kesusahan kalau bukan Allah</a></li>
+<div id="b301" style="display:none;"><iframe name="b301" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/27. An-Naml/93.htm" onclick="myFunction('b302')" target="b302">Ayat 93 : Allah tidak lengah atau tidak luput atas apa yang kita kerjakan/perbuat/amalan kita</a></li>
+<div id="b302" style="display:none;"><iframe name="b302" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/27. An-Naml/93.htm" onclick="myFunction('b303')" target="b303">Ayat 93 : Akan diperlihatkan tanda-tanda kebesaran Allah dan kalian akan mengetahuinya, disebutkan juga di 41:53 </a></li>
+<div id="b303" style="display:none;"><iframe name="b303" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 
 
 </ul>
 28. Al-Qashash
 <ul>
-<li><a href="Al-Quran/28. Al-Qashash/78.htm" onclick="myFunction('b286')" target="b286">Ayat 78 : Kufur Nikmat dng berkata "aku diberi/dapat harta karena ilmuku/usahaku"</a></li>
-<div id="b286" style="display:none;"><iframe name="b286" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/28. Al-Qashash/83.htm" onclick="myFunction('b287')" target="b287">Ayat 83 : Negri Akhirat Untuk Org2 yang Tidak Merusak di Bumi</a></li>
-<div id="b287" style="display:none;"><iframe name="b287" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/28. Al-Qashash/84.htm" onclick="myFunction('b288')" target="b288">Ayat 84 : Sp yg Dtng dengan Kebaikan akan Mendapatkan dan sebaliknya</a></li>
-<div id="b288" style="display:none;"><iframe name="b288" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/28. Al-Qashash/56.htm" onclick="myFunction('b289')" target="b289">Ayat 56 : Allah yang memberi Hidayah</a></li>
-<div id="b289" style="display:none;"><iframe name="b289" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/28. Al-Qashash/78.htm" onclick="myFunction('b309')" target="b309">Ayat 78 : Kufur Nikmat dng berkata "aku diberi/dapat harta karena ilmuku/usahaku"</a></li>
+<div id="b309" style="display:none;"><iframe name="b309" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/28. Al-Qashash/83.htm" onclick="myFunction('b310')" target="b310">Ayat 83 : Negri Akhirat Untuk Org2 yang Tidak Merusak di Bumi</a></li>
+<div id="b310" style="display:none;"><iframe name="b310" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/28. Al-Qashash/84.htm" onclick="myFunction('b311')" target="b311">Ayat 84 : Sp yg Dtng dengan Kebaikan akan Mendapatkan dan sebaliknya</a></li>
+<div id="b311" style="display:none;"><iframe name="b311" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/28. Al-Qashash/56.htm" onclick="myFunction('b312')" target="b312">Ayat 56 : Allah yang memberi Hidayah</a></li>
+<div id="b312" style="display:none;"><iframe name="b312" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="29"></a><CENTER><A HREF="#top">top</A></CENTER>
 29. Al-'Ankabuut
 <ul>
-<li><a href="Al-Quran/29. Al-'Ankabuut/2.htm" onclick="myFunction('b294')" target="b294">Ayat 2-3 : Orang2 Beriman Harus Diuji, dan Allah Tau yang Benar dan yg Dusta</a></li>
-<div id="b294" style="display:none;"><iframe name="b294" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/29. Al-'Ankabuut/17.htm" onclick="myFunction('b295')" target="b295">Ayat 17 : Mintalah Rizki kepada Allah</a></li>
-<div id="b295" style="display:none;"><iframe name="b295" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/29. Al-'Ankabuut/48.htm" onclick="myFunction('b296')" target="b296">Ayat 48 : Orang Akan Ragu Al-Quran jika Rasulullah tau Baca Tulis</a></li>
-<div id="b296" style="display:none;"><iframe name="b296" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/29. Al-'Ankabuut/49.htm" onclick="myFunction('b297')" target="b297">Ayat 49 : Orang yang Mengingkari Ayat Al-Quran adalah Orang Lalim/Dholim</a></li>
-<div id="b297" style="display:none;"><iframe name="b297" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/29. Al-'Ankabuut/51.htm" onclick="myFunction('b298')" target="b298">Ayat 51 : Rahmat dan Pelajaran Dalam Al-Quran </a></li>
-<div id="b298" style="display:none;"><iframe name="b298" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/29. Al-'Ankabuut/57.htm" onclick="myFunction('b299')" target="b299">Ayat 57 : Setiap Jiwa Akan Mati</a></li>
-<div id="b299" style="display:none;"><iframe name="b299" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/29. Al-'Ankabuut/60.htm" onclick="myFunction('b300')" target="b300">Ayat 60 : Allah yang memberi Rizki Binatang2 / Binatang Melata</a></li>
-<div id="b300" style="display:none;"><iframe name="b300" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/2.htm" onclick="myFunction('b316')" target="b316">Ayat 2-3 : Orang2 Beriman Harus Diuji, dan Allah Tau yang Benar dan yg Dusta</a></li>
+<div id="b316" style="display:none;"><iframe name="b316" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/17.htm" onclick="myFunction('b317')" target="b317">Ayat 17 : Mintalah Rizki kepada Allah</a></li>
+<div id="b317" style="display:none;"><iframe name="b317" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/48.htm" onclick="myFunction('b318')" target="b318">Ayat 48 : Orang Akan Ragu Al-Quran jika Rasulullah tau Baca Tulis</a></li>
+<div id="b318" style="display:none;"><iframe name="b318" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/49.htm" onclick="myFunction('b319')" target="b319">Ayat 49 : Orang yang Mengingkari Ayat Al-Quran adalah Orang Lalim/Dholim</a></li>
+<div id="b319" style="display:none;"><iframe name="b319" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/51.htm" onclick="myFunction('b320')" target="b320">Ayat 51 : Rahmat dan Pelajaran Dalam Al-Quran </a></li>
+<div id="b320" style="display:none;"><iframe name="b320" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/57.htm" onclick="myFunction('b321')" target="b321">Ayat 57 : Setiap Jiwa Akan Mati</a></li>
+<div id="b321" style="display:none;"><iframe name="b321" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/29. Al-'Ankabuut/60.htm" onclick="myFunction('b322')" target="b322">Ayat 60 : Allah yang memberi Rizki Binatang2 / Binatang Melata</a></li>
+<div id="b322" style="display:none;"><iframe name="b322" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 30. Ar-Ruum
 <ul>
-<li><a href="Al-Quran/30. Ar-Ruum/7.htm" onclick="myFunction('b304')" target="b304">Ayat 7 : Celaan Allah terhadap Orang Lebih Tau Ilmu Dunia dan lalai dari Akhirat</a></li>
-<div id="b304" style="display:none;"><iframe name="b304" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/30. Ar-Ruum/44.htm" onclick="myFunction('b305')" target="b305">Ayat 44 : Barang siapa yang kafir maka dia sendirilah yang menanggung</a></li>
-<div id="b305" style="display:none;"><iframe name="b305" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/30. Ar-Ruum/46.htm" onclick="myFunction('b306')" target="b306">Ayat 46 : Allah Mengirim Angin untuk Berita Gembira dan Untuk Berlayar di lautan</a></li>
-<div id="b306" style="display:none;"><iframe name="b306" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/30. Ar-Ruum/7.htm" onclick="myFunction('b326')" target="b326">Ayat 7 : Celaan Allah terhadap Orang Lebih Tau Ilmu Dunia dan lalai dari Akhirat</a></li>
+<div id="b326" style="display:none;"><iframe name="b326" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/30. Ar-Ruum/44.htm" onclick="myFunction('b327')" target="b327">Ayat 44 : Barang siapa yang kafir maka dia sendirilah yang menanggung</a></li>
+<div id="b327" style="display:none;"><iframe name="b327" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/30. Ar-Ruum/46.htm" onclick="myFunction('b328')" target="b328">Ayat 46 : Allah Mengirim Angin untuk Berita Gembira dan Untuk Berlayar di lautan</a></li>
+<div id="b328" style="display:none;"><iframe name="b328" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 33. Al-Ahzab
 <ul>
-<li><a href="Al-Quran/33. Al-Ahzab/21.htm" onclick="myFunction('b310')" target="b310">Ayat 21: Terdapat Suri Tauladan yang Baik Pada Diri Rasulullah..</a></li>
-<div id="b310" style="display:none;"><iframe name="b310" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/33. Al-Ahzab/72.htm" onclick="myFunction('b311')" target="b311">Ayat 72: Manusia Bersedia Memikul Amanah yang ditolak oleh Langit, Bumi dan Gunung</a></li>
-<div id="b311" style="display:none;"><iframe name="b311" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/33. Al-Ahzab/21.htm" onclick="myFunction('b332')" target="b332">Ayat 21: Terdapat Suri Tauladan yang Baik Pada Diri Rasulullah..</a></li>
+<div id="b332" style="display:none;"><iframe name="b332" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/33. Al-Ahzab/72.htm" onclick="myFunction('b333')" target="b333">Ayat 72: Manusia Bersedia Memikul Amanah yang ditolak oleh Langit, Bumi dan Gunung</a></li>
+<div id="b333" style="display:none;"><iframe name="b333" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 34. Saba'
 <ul>
-<li><a href="Al-Quran/34. Saba'/28.htm" onclick="myFunction('b315')" target="b315">Ayat 28: Rasulullah di Utus Sebagai Pembawa Berita Gembira dan Pemberi Peringatan</a></li>
-<div id="b315" style="display:none;"><iframe name="b315" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/34. Saba'/28.htm" onclick="myFunction('b337')" target="b337">Ayat 28: Rasulullah di Utus Sebagai Pembawa Berita Gembira dan Pemberi Peringatan</a></li>
+<div id="b337" style="display:none;"><iframe name="b337" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 35. Faathir
 <ul>
-<li><a href="Al-Quran/35. Faathir/2.htm" onclick="myFunction('b319')" target="b319">Ayat 2 : Anugrah Allah Brupa Rahmat Tdk dpt di Cegah, dan yg di Tahan Tdk dpt DiLepas</a></li>
-<div id="b319" style="display:none;"><iframe name="b319" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/35. Faathir/28.htm" onclick="myFunction('b320')" target="b320">Ayat 28 : Hamba Allah yang Paling Takut Allah adalah Ulama'</a></li>
-<div id="b320" style="display:none;"><iframe name="b320" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/35. Faathir/29.htm" onclick="myFunction('b321')" target="b321">Ayat 29-30 : Membaca Al Quran, Sholat dan berbagi rizki adalah perdagangan yang tidak pernah merugi</a></li>
-<div id="b321" style="display:none;"><iframe name="b321" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/35. Faathir/32.htm" onclick="myFunction('b322')" target="b322">Ayat 32 : Ummat Islam adalah Ummat Terpilih mendapatkan Warisan Al-Kitab</a></li>
-<div id="b322" style="display:none;"><iframe name="b322" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/35. Faathir/2.htm" onclick="myFunction('b341')" target="b341">Ayat 2 : Anugrah Allah Brupa Rahmat Tdk dpt di Cegah, dan yg di Tahan Tdk dpt DiLepas</a></li>
+<div id="b341" style="display:none;"><iframe name="b341" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/35. Faathir/28.htm" onclick="myFunction('b342')" target="b342">Ayat 28 : Hamba Allah yang Paling Takut Allah adalah Ulama'</a></li>
+<div id="b342" style="display:none;"><iframe name="b342" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/35. Faathir/29.htm" onclick="myFunction('b343')" target="b343">Ayat 29-30 : Membaca Al Quran, Sholat dan berbagi rizki adalah perdagangan yang tidak pernah merugi</a></li>
+<div id="b343" style="display:none;"><iframe name="b343" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/35. Faathir/32.htm" onclick="myFunction('b344')" target="b344">Ayat 32 : Ummat Islam adalah Ummat Terpilih mendapatkan Warisan Al-Kitab</a></li>
+<div id="b344" style="display:none;"><iframe name="b344" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="36"></a><CENTER><A HREF="#top">top</A></CENTER>
 36. Yaasiin
 <ul>
-<li><a href="Al-Quran/36. Yaasiin/36.htm" onclick="myFunction('b327')" target="b327">Ayat 36 : Allah Menciptakan segala sesuatu Berpasang-Pasang</a></li>
-<div id="b327" style="display:none;"><iframe name="b327" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/36. Yaasiin/36.htm" onclick="myFunction('b348')" target="b348">Ayat 36 : Allah Menciptakan segala sesuatu Berpasang-Pasang</a></li>
+<div id="b348" style="display:none;"><iframe name="b348" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 38. Shaad
 <ul>
-<li><a href="Al-Quran/38. Shaad/4.htm" onclick="myFunction('b331')" target="b331">Ayat 4 : Hinaan Org Kfr Terhdp Nabi : "Ahli Sihir dan berdusta" </a></li>
-<div id="b331" style="display:none;"><iframe name="b331" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/38. Shaad/85.htm" onclick="myFunction('b332')" target="b332">Ayat 85 : Neraka Jahannam Akan dipenuhi Oleh Iblis dan Pengikutnya</a></li>
-<div id="b332" style="display:none;"><iframe name="b332" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/38. Shaad/4.htm" onclick="myFunction('b352')" target="b352">Ayat 4 : Hinaan Org Kfr Terhdp Nabi : "Ahli Sihir dan berdusta" </a></li>
+<div id="b352" style="display:none;"><iframe name="b352" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/38. Shaad/85.htm" onclick="myFunction('b353')" target="b353">Ayat 85 : Neraka Jahannam Akan dipenuhi Oleh Iblis dan Pengikutnya</a></li>
+<div id="b353" style="display:none;"><iframe name="b353" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 39. Az-Zumar
 <ul>
-<li><a href="Al-Quran/39. Az-Zumar/17.htm" onclick="myFunction('b336')" target="b336">Ayat 17-18 : Anjuran Memilih Pendapat Yang Terbaik</a></li>
-<div id="b336" style="display:none;"><iframe name="b336" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/39. Az-Zumar/36.htm" onclick="myFunction('b337')" target="b337">Ayat 36 : Cukup Allah Sebagai Pelindung Hamba2nya</a></li>
-<div id="b337" style="display:none;"><iframe name="b337" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/39. Az-Zumar/38.htm" onclick="myFunction('b338')" target="b338">Ayat 38 : Pengakuan Orang Kafir : Allah Pencipta Langit dan Bumi, yg disembah selain Allah tidak dapat Menghilangkan Kemudhoratan</a></li>
-<div id="b338" style="display:none;"><iframe name="b338" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/39. Az-Zumar/53.htm" onclick="myFunction('b339')" target="b339">Ayat 53 : Hamba Allah Yg Melampaui Batas Jangan Putus Asa Dari Rahmat Allah, Allah Mengampuni Dosa2 Semuanya </a></li>
-<div id="b339" style="display:none;"><iframe name="b339" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/39. Az-Zumar/17.htm" onclick="myFunction('b357')" target="b357">Ayat 17-18 : Anjuran Memilih Pendapat Yang Terbaik</a></li>
+<div id="b357" style="display:none;"><iframe name="b357" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/39. Az-Zumar/36.htm" onclick="myFunction('b358')" target="b358">Ayat 36 : Cukup Allah Sebagai Pelindung Hamba2nya</a></li>
+<div id="b358" style="display:none;"><iframe name="b358" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/39. Az-Zumar/38.htm" onclick="myFunction('b359')" target="b359">Ayat 38 : Pengakuan Orang Kafir : Allah Pencipta Langit dan Bumi, yg disembah selain Allah tidak dapat Menghilangkan Kemudhoratan</a></li>
+<div id="b359" style="display:none;"><iframe name="b359" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/39. Az-Zumar/53.htm" onclick="myFunction('b360')" target="b360">Ayat 53 : Hamba Allah Yg Melampaui Batas Jangan Putus Asa Dari Rahmat Allah, Allah Mengampuni Dosa2 Semuanya </a></li>
+<div id="b360" style="display:none;"><iframe name="b360" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 40. Al-Mu'min / Gafir
 <ul>
-<li><a href="Al-Quran/40. Al-Mu'min/3.htm" onclick="myFunction('b343')" target="b343">Ayat 3 : Allah Maha Pengampun lagi Menerima Taubat</a></li>
-<div id="b343" style="display:none;"><iframe name="b343" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/40. Al-Mu'min/3.htm" onclick="myFunction('b364')" target="b364">Ayat 3 : Allah Maha Pengampun lagi Menerima Taubat</a></li>
+<div id="b364" style="display:none;"><iframe name="b364" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 41. Fushshilat
 <ul>
-<li><a href="Al-Quran/41. Fushshilat/34.htm" onclick="myFunction('b347')" target="b347">Ayat 34 : Tidak Sama Kebaikan dan Kejahatan, Tolaklah Kejahatan itu dengan Cara yg Baik</a></li>
-<div id="b347" style="display:none;"><iframe name="b347" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/41. Fushshilat/35.htm" onclick="myFunction('b348')" target="b348">Ayat 35 : Sifat2 yg Baik itu dianugerahkan kepada Orang2 yg Sabar dan Beruntung Besar</a></li>
-<div id="b348" style="display:none;"><iframe name="b348" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/41. Fushshilat/46.htm" onclick="myFunction('b349')" target="b349">Ayat 46 : Amal Baik dan Jahat akan Kembali Kepada Orangnya</a></li>
-<div id="b349" style="display:none;"><iframe name="b349" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/41. Fushshilat/53.htm" onclick="myFunction('b350')" target="b350">Ayat 53 : Akan diperlihatkan tanda-tanda kebesaran Allah di segenap penjuru dan pada diri manusia sendiri sehingga jelas bahwa Al-Quran itu adalah benar.(hd, 27:93)</a></li>
-<div id="b350" style="display:none;"><iframe name="b350" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/41. Fushshilat/34.htm" onclick="myFunction('b368')" target="b368">Ayat 34 : Tidak Sama Kebaikan dan Kejahatan, Tolaklah Kejahatan itu dengan Cara yg Baik</a></li>
+<div id="b368" style="display:none;"><iframe name="b368" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/41. Fushshilat/35.htm" onclick="myFunction('b369')" target="b369">Ayat 35 : Sifat2 yg Baik itu dianugerahkan kepada Orang2 yg Sabar dan Beruntung Besar</a></li>
+<div id="b369" style="display:none;"><iframe name="b369" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/41. Fushshilat/46.htm" onclick="myFunction('b370')" target="b370">Ayat 46 : Amal Baik dan Jahat akan Kembali Kepada Orangnya</a></li>
+<div id="b370" style="display:none;"><iframe name="b370" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/41. Fushshilat/53.htm" onclick="myFunction('b371')" target="b371">Ayat 53 : Akan diperlihatkan tanda-tanda kebesaran Allah di segenap penjuru dan pada diri manusia sendiri sehingga jelas bahwa Al-Quran itu adalah benar.(hd, 27:93)</a></li>
+<div id="b371" style="display:none;"><iframe name="b371" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="42"></a><CENTER><A HREF="#top">top</A></CENTER>
 42. Asy-Syuura
 <ul>
-<li><a href="Al-Quran/42. Asy-Syuura/25.htm" onclick="myFunction('b355')" target="b355">Ayat 25 : Allah Menerima Taubat dan Memaafkan Kesalahan2</a></li>
-<div id="b355" style="display:none;"><iframe name="b355" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/42. Asy-Syuura/27.htm" onclick="myFunction('b356')" target="b356">Ayat 27 : Allah Menurunkan Rizki Sesuai Ukuran</a></li>
-<div id="b356" style="display:none;"><iframe name="b356" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/42. Asy-Syuura/49.htm" onclick="myFunction('b357')" target="b357">Ayat 49-50 : Anak Laki2 or Perempauan dan Mandul itu Allah yang Menentukan</a></li>
-<div id="b357" style="display:none;"><iframe name="b357" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/42. Asy-Syuura/51.htm" onclick="myFunction('b358')" target="b358">Ayat 51 : Allah tidak Berkata-kata secara langsung kepada Manusia</a></li>
-<div id="b358" style="display:none;"><iframe name="b358" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/42. Asy-Syuura/25.htm" onclick="myFunction('b375')" target="b375">Ayat 25 : Allah Menerima Taubat dan Memaafkan Kesalahan2</a></li>
+<div id="b375" style="display:none;"><iframe name="b375" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/42. Asy-Syuura/27.htm" onclick="myFunction('b376')" target="b376">Ayat 27 : Allah Menurunkan Rizki Sesuai Ukuran</a></li>
+<div id="b376" style="display:none;"><iframe name="b376" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/42. Asy-Syuura/49.htm" onclick="myFunction('b377')" target="b377">Ayat 49-50 : Anak Laki2 or Perempauan dan Mandul itu Allah yang Menentukan</a></li>
+<div id="b377" style="display:none;"><iframe name="b377" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/42. Asy-Syuura/51.htm" onclick="myFunction('b378')" target="b378">Ayat 51 : Allah tidak Berkata-kata secara langsung kepada Manusia</a></li>
+<div id="b378" style="display:none;"><iframe name="b378" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 45. Al-Jaatsiyah
 <ul>
-<li><a href="Al-Quran/45. Al-Jaatsiyah/15.htm" onclick="myFunction('b362')" target="b362">Ayat 15 : Amal Baik dan Jahat akan Kembali Kepada Orangnya</a></li>
-<div id="b362" style="display:none;"><iframe name="b362" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/45. Al-Jaatsiyah/21.htm" onclick="myFunction('b363')" target="b363">Ayat 21 : Tidak sama orang baik dan orang jahat hidup dan mati</a></li>
-<div id="b363" style="display:none;"><iframe name="b363" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/45. Al-Jaatsiyah/15.htm" onclick="myFunction('b382')" target="b382">Ayat 15 : Amal Baik dan Jahat akan Kembali Kepada Orangnya</a></li>
+<div id="b382" style="display:none;"><iframe name="b382" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/45. Al-Jaatsiyah/21.htm" onclick="myFunction('b383')" target="b383">Ayat 21 : Tidak sama orang baik dan orang jahat hidup dan mati</a></li>
+<div id="b383" style="display:none;"><iframe name="b383" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 46. Al-Ahqaaf
 <ul>
-<li><a href="Al-Quran/46. Al-Ahqaaf/15.htm" onclick="myFunction('b367')" target="b367">Ayat 15 : Perintah Berbuat Baik pada Ibu Bapak, dan Doa untuk anak cucu/keluarga</a></li>
-<div id="b367" style="display:none;"><iframe name="b367" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/46. Al-Ahqaaf/15.htm" onclick="myFunction('b387')" target="b387">Ayat 15 : Perintah Berbuat Baik pada Ibu Bapak, dan Doa untuk anak cucu/keluarga</a></li>
+<div id="b387" style="display:none;"><iframe name="b387" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 47. Muhammad
 <ul>
-<li><a href="Al-Quran/47. Muhammad/4.htm" onclick="myFunction('b371')" target="b371">Ayat 4 : Orang Kafi Sebagai Ujian Untuk Kita Orang Islam/Beriman</a></li>
-<div id="b371" style="display:none;"><iframe name="b371" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/47. Muhammad/9.htm" onclick="myFunction('b372')" target="b372">Ayat 9 : Membenci apa yang Allah Turunkan (Al-Quran) menghapus amal-amal</a></li>
-<div id="b372" style="display:none;"><iframe name="b372" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/47. Muhammad/4.htm" onclick="myFunction('b391')" target="b391">Ayat 4 : Orang Kafi Sebagai Ujian Untuk Kita Orang Islam/Beriman</a></li>
+<div id="b391" style="display:none;"><iframe name="b391" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/47. Muhammad/9.htm" onclick="myFunction('b392')" target="b392">Ayat 9 : Membenci apa yang Allah Turunkan (Al-Quran) menghapus amal-amal</a></li>
+<div id="b392" style="display:none;"><iframe name="b392" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="53"></a><CENTER><A HREF="#top">top</A></CENTER>
 53. An-Najm
 <ul>
-<li><a href="Al-Quran/53. An-Najm/28.htm" onclick="myFunction('b377')" target="b377">Ayat 28 : Mengikuti Perasangka Tidak Berguna Terhadap Kebenaran </a></li>
-<div id="b377" style="display:none;"><iframe name="b377" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/53. An-Najm/28.htm" onclick="myFunction('b396')" target="b396">Ayat 28 : Mengikuti Perasangka Tidak Berguna Terhadap Kebenaran </a></li>
+<div id="b396" style="display:none;"><iframe name="b396" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 54. Al-Qamar
 <ul>
-<li><a href="Al-Quran/54. Al-Qamar/3.htm" onclick="myFunction('b381')" target="b381">Ayat 3 : Mendustakan Nabi dan Mengikuti Hawa-Nafsu Mereka, Tiap2 urusan sudah ada ketetapannya</a></li>
-<div id="b381" style="display:none;"><iframe name="b381" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/54. Al-Qamar/49.htm" onclick="myFunction('b382')" target="b382">Ayat 49 : Allah Menciptakan Segala Sesuatu Sudah Ada Ukuran</a></li>
-<div id="b382" style="display:none;"><iframe name="b382" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/54. Al-Qamar/3.htm" onclick="myFunction('b400')" target="b400">Ayat 3 : Mendustakan Nabi dan Mengikuti Hawa-Nafsu Mereka, Tiap2 urusan sudah ada ketetapannya</a></li>
+<div id="b400" style="display:none;"><iframe name="b400" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/54. Al-Qamar/49.htm" onclick="myFunction('b401')" target="b401">Ayat 49 : Allah Menciptakan Segala Sesuatu Sudah Ada Ukuran</a></li>
+<div id="b401" style="display:none;"><iframe name="b401" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 55. Ar-Rahmaan
 <ul>
-<li><a href="Al-Quran/55. Ar-Rahmaan/26.htm" onclick="myFunction('b386')" target="b386">Ayat 26 : Semua yang ada di bumi itu akan Binasa / Hancur</a></li>
-<div id="b386" style="display:none;"><iframe name="b386" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<!-- <li><a href="Al-Quran/55. Ar-Rahmaan/49.htm" onclick="myFunction('b387')" target="b387">Ayat 49 : Allah Menciptakan Segala Sesuatu Sudah Ada Ukuran</a></li> -->
-<div id="b387" style="display:none;"><iframe name="b387" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/55. Ar-Rahmaan/26.htm" onclick="myFunction('b405')" target="b405">Ayat 26 : Semua yang ada di bumi itu akan Binasa / Hancur</a></li>
+<div id="b405" style="display:none;"><iframe name="b405" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<!-- <li><a href="Al-Quran/55. Ar-Rahmaan/49.htm" onclick="myFunction('b406')" target="b406">Ayat 49 : Allah Menciptakan Segala Sesuatu Sudah Ada Ukuran</a></li> -->
+<div id="b406" style="display:none;"><iframe name="b406" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 56. Al-Waaqi'ah
 <ul>
-<li><a href="Al-Quran/56. Al-Waaqi'ah/35.htm" onclick="myFunction('b391')" target="b391">Ayat ...-35-... : Allah Menciptakan Bidadari dan Ni'mat di Sorga</a></li>
-<div id="b391" style="display:none;"><iframe name="b391" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/56. Al-Waaqi'ah/35.htm" onclick="myFunction('b410')" target="b410">Ayat ...-35-... : Allah Menciptakan Bidadari dan Ni'mat di Sorga</a></li>
+<div id="b410" style="display:none;"><iframe name="b410" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 57. Al-Hadiid
 <ul>
-<li><a href="Al-Quran/57. Al-Hadiid/20.htm" onclick="myFunction('b395')" target="b395">Ayat 20 : Siklus Hidup di Dunia, Kehidupan Dunia ini hanyalah Permainan, dan Kesenangan yg Menipu</a></li>
-<div id="b395" style="display:none;"><iframe name="b395" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/57. Al-Hadiid/25.htm" onclick="myFunction('b396')" target="b396">Ayat 25 : Allah Mengutus Rasul dan Menurunkan Kitab Agar Kita Menegakkan Keadilan</a></li>
-<div id="b396" style="display:none;"><iframe name="b396" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/57. Al-Hadiid/20.htm" onclick="myFunction('b414')" target="b414">Ayat 20 : Siklus Hidup di Dunia, Kehidupan Dunia ini hanyalah Permainan, dan Kesenangan yg Menipu</a></li>
+<div id="b414" style="display:none;"><iframe name="b414" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/57. Al-Hadiid/25.htm" onclick="myFunction('b415')" target="b415">Ayat 25 : Allah Mengutus Rasul dan Menurunkan Kitab Agar Kita Menegakkan Keadilan</a></li>
+<div id="b415" style="display:none;"><iframe name="b415" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 59. Al-Hasyr
 <ul>
-<li><a href="Al-Quran/59. Al-Hasyr/18.htm" onclick="myFunction('b400')" target="b400">Ayat 18 : Bertakwalah, dan Persiapkanlah Diri Untuk Hari Esok (Akhirat)</a></li>
-<div id="b400" style="display:none;"><iframe name="b400" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/59. Al-Hasyr/20.htm" onclick="myFunction('b401')" target="b401">Ayat 20 : Tidak Sama Penghuni Neraka dan Penghuni Sorga</a></li>
-<div id="b401" style="display:none;"><iframe name="b401" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/59. Al-Hasyr/21.htm" onclick="myFunction('b402')" target="b402">Ayat 21 : Sekiranya Al Qur'an di Turunkan kepada sebuah gunung</a></li>
-<div id="b402" style="display:none;"><iframe name="b402" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/59. Al-Hasyr/18.htm" onclick="myFunction('b419')" target="b419">Ayat 18 : Bertakwalah, dan Persiapkanlah Diri Untuk Hari Esok (Akhirat)</a></li>
+<div id="b419" style="display:none;"><iframe name="b419" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/59. Al-Hasyr/20.htm" onclick="myFunction('b420')" target="b420">Ayat 20 : Tidak Sama Penghuni Neraka dan Penghuni Sorga</a></li>
+<div id="b420" style="display:none;"><iframe name="b420" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/59. Al-Hasyr/21.htm" onclick="myFunction('b421')" target="b421">Ayat 21 : Sekiranya Al Qur'an di Turunkan kepada sebuah gunung</a></li>
+<div id="b421" style="display:none;"><iframe name="b421" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="64"></a><CENTER><A HREF="#top">top</A></CENTER>
 64. At-Taghaabun
 <ul>
-<li><a href="Al-Quran/64. At-Taghaabun/16.htm" onclick="myFunction('b407')" target="b407">Ayat 16 : Ber-Takwalah Kepada Allah Semampu Kalian</a></li>
-<div id="b407" style="display:none;"><iframe name="b407" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/64. At-Taghaabun/16.htm" onclick="myFunction('b425')" target="b425">Ayat 16 : Ber-Takwalah Kepada Allah Semampu Kalian</a></li>
+<div id="b425" style="display:none;"><iframe name="b425" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 65. Ath-Thalaaq
 <ul>
-<li><a href="Al-Quran/65. Ath-Thalaaq/6.htm" onclick="myFunction('b411')" target="b411">Ayat 6-7 : Nafkah Istri, Berikan Sesuai dengan Kesanggupan</a></li>
-<div id="b411" style="display:none;"><iframe name="b411" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/65. Ath-Thalaaq/6.htm" onclick="myFunction('b429')" target="b429">Ayat 6-7 : Nafkah Istri, Berikan Sesuai dengan Kesanggupan</a></li>
+<div id="b429" style="display:none;"><iframe name="b429" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 68. Al-Qalam
 <ul>
-<li><a href="Al-Quran/68. Al-Qalam/51.htm" onclick="myFunction('b415')" target="b415">Ayat 51 : Hinaan Org Kfr Bahwa Nabi : "Gila"</a></li>
-<div id="b415" style="display:none;"><iframe name="b415" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/68. Al-Qalam/51.htm" onclick="myFunction('b433')" target="b433">Ayat 51 : Hinaan Org Kfr Bahwa Nabi : "Gila"</a></li>
+<div id="b433" style="display:none;"><iframe name="b433" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 70. Al-Ma'aarij
 <ul>
-<li><a href="Al-Quran/70. Al-Ma'aarij/19.htm" onclick="myFunction('b419')" target="b419">Ayat ..19.. : Sifat2 Manusia yg suka berkeluh-kesah</a></li>
-<div id="b419" style="display:none;"><iframe name="b419" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/70. Al-Ma'aarij/19.htm" onclick="myFunction('b437')" target="b437">Ayat ..19.. : Sifat2 Manusia yg suka berkeluh-kesah</a></li>
+<div id="b437" style="display:none;"><iframe name="b437" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="72"></a><CENTER><A HREF="#top">top</A></CENTER>
 72. Al-Jin
 <ul>
-<li><a href="Al-Quran/72. Al-Jin/26.htm" onclick="myFunction('b424')" target="b424">Ayat 26-27 : Tidak Ada Manusia Yg Tau Masalah Gaib Kecuali Rasul Yg Allah Ridhai</a></li>
-<div id="b424" style="display:none;"><iframe name="b424" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/72. Al-Jin/26.htm" onclick="myFunction('b441')" target="b441">Ayat 26-27 : Tidak Ada Manusia Yg Tau Masalah Gaib Kecuali Rasul Yg Allah Ridhai</a></li>
+<div id="b441" style="display:none;"><iframe name="b441" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 73. Al-Muzzammil
-<ul><li><a href="Al-Quran/73. Al-Muzzammil/4.htm" onclick="myFunction('b427')" target="b427">Ayat 4 : Bacalah Al-Quran itu Dengan Perlahan-Lahan</a></li>
-<div id="b427" style="display:none;"><iframe name="b427" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/73. Al-Muzzammil/20.htm" onclick="myFunction('b428')" target="b428">Ayat 20 : Kita akan mendapatkan Kebaikan yg kita tanam di waktu hidup walau sedikit</a></li>
-<div id="b428" style="display:none;"><iframe name="b428" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/73. Al-Muzzammil/20.htm" onclick="myFunction('b429')" target="b429">Ayat 20 : Bacalah apa yang Mudah (bagimu) dari Al-Quran</a></li>
-<div id="b429" style="display:none;"><iframe name="b429" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<ul><li><a href="Al-Quran/73. Al-Muzzammil/4.htm" onclick="myFunction('b444')" target="b444">Ayat 4 : Bacalah Al-Quran itu Dengan Perlahan-Lahan</a></li>
+<div id="b444" style="display:none;"><iframe name="b444" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/73. Al-Muzzammil/20.htm" onclick="myFunction('b445')" target="b445">Ayat 20 : Kita akan mendapatkan Kebaikan yg kita tanam di waktu hidup walau sedikit</a></li>
+<div id="b445" style="display:none;"><iframe name="b445" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/73. Al-Muzzammil/20.htm" onclick="myFunction('b446')" target="b446">Ayat 20 : Bacalah apa yang Mudah (bagimu) dari Al-Quran</a></li>
+<div id="b446" style="display:none;"><iframe name="b446" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 75. Al-Qiyaamah
 <ul>
-<li><a href="Al-Quran/75. Al-Qiyaamah/36.htm" onclick="myFunction('b433')" target="b433">Ayat 36 : Manusia Punya Tanggung Jawab</a></li>
-<div id="b433" style="display:none;"><iframe name="b433" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/75. Al-Qiyaamah/36.htm" onclick="myFunction('b450')" target="b450">Ayat 36 : Manusia Punya Tanggung Jawab</a></li>
+<div id="b450" style="display:none;"><iframe name="b450" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 76. Al-Insaan
 <ul>
-<li><a href="Al-Quran/76. Al-Insaan/2.htm" onclick="myFunction('b437')" target="b437">Ayat 2-3 : Manusia Dikasih Petunjuk, Ada Yg Bersukur ada yg Kufur</a></li>
-<div id="b437" style="display:none;"><iframe name="b437" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/76. Al-Insaan/29.htm" onclick="myFunction('b438')" target="b438">Ayat 29 : Ayat-ayat Al-Quran adalah Peringatan bagi yang Mengambil jalan kepada Tuhannya</a></li>
-<div id="b438" style="display:none;"><iframe name="b438" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/76. Al-Insaan/2.htm" onclick="myFunction('b454')" target="b454">Ayat 2-3 : Manusia Dikasih Petunjuk, Ada Yg Bersukur ada yg Kufur</a></li>
+<div id="b454" style="display:none;"><iframe name="b454" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/76. Al-Insaan/29.htm" onclick="myFunction('b455')" target="b455">Ayat 29 : Ayat-ayat Al-Quran adalah Peringatan bagi yang Mengambil jalan kepada Tuhannya</a></li>
+<div id="b455" style="display:none;"><iframe name="b455" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
-<a name="79"></a><CENTER><A HREF="#top">top</A></CENTER>
 79. An-Nazi'at
 <ul>
-<li><a href="Al-Quran/79. An-Nazi'at/40.htm" onclick="myFunction('b443')" target="b443">Ayat 40-41 : Orang2 yang Takut Allah, dan Menahan diri dari Hawa-Nafsu, Sorgalah Tempatnya</a></li>
-<div id="b443" style="display:none;"><iframe name="b443" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/79. An-Nazi'at/40.htm" onclick="myFunction('b459')" target="b459">Ayat 40-41 : Orang2 yang Takut Allah, dan Menahan diri dari Hawa-Nafsu, Sorgalah Tempatnya</a></li>
+<div id="b459" style="display:none;"><iframe name="b459" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 83. Al-Muthaffifiin
 <ul>
-<li><a href="Al-Quran/83. Al-Muthaffifiin/29.htm" onclick="myFunction('b447')" target="b447">Ayat 29-33 : Hinaan Org2 Berdosa Kpd Org2 Beriman</a></li>
-<div id="b447" style="display:none;"><iframe name="b447" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/83. Al-Muthaffifiin/34.htm" onclick="myFunction('b448')" target="b448">Ayat 34... : Org2 Beriman Menertawakan Org2 Kafir</a></li>
-<div id="b448" style="display:none;"><iframe name="b448" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/83. Al-Muthaffifiin/29.htm" onclick="myFunction('b463')" target="b463">Ayat 29-33 : Hinaan Org2 Berdosa Kpd Org2 Beriman</a></li>
+<div id="b463" style="display:none;"><iframe name="b463" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/83. Al-Muthaffifiin/34.htm" onclick="myFunction('b464')" target="b464">Ayat 34... : Org2 Beriman Menertawakan Org2 Kafir</a></li>
+<div id="b464" style="display:none;"><iframe name="b464" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul>
 87. Al-A'laa
 <ul>
-<li><a href="Al-Quran/87. Al-A'laa/16.htm" onclick="myFunction('b452')" target="b452">Ayat 16 : Orang2 Kafir memilih kehidupan duniawi</a></li>
-<div id="b452" style="display:none;"><iframe name="b452" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
-<li><a href="Al-Quran/87. Al-A'laa/17.htm" onclick="myFunction('b453')" target="b453">Ayat 17 : Kehidupan Akhirat Lebih Baik dan Kekal</a></li>
-<div id="b453" style="display:none;"><iframe name="b453" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/87. Al-A'laa/16.htm" onclick="myFunction('b468')" target="b468">Ayat 16 : Orang2 Kafir memilih kehidupan duniawi</a></li>
+<div id="b468" style="display:none;"><iframe name="b468" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
+<li><a href="Al-Quran/87. Al-A'laa/17.htm" onclick="myFunction('b469')" target="b469">Ayat 17 : Kehidupan Akhirat Lebih Baik dan Kekal</a></li>
+<div id="b469" style="display:none;"><iframe name="b469" src="" style="border: none; " width="100%" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe></div>
 </ul
 <br>
 <hr>
+
 <center>---IkhwanElyas Pe Ayat Koleksi---</center>
 </body>
 </html>
